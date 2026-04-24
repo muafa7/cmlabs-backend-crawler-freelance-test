@@ -57,10 +57,11 @@ src/
     pageCrawler.js
     pageExtractor.js
     urlUtils.js
-  storage/
-    html/
+  app.js
+  server.js
 
-server.js
+storage/
+  html/
 test-crawl.js
 README.md
 ```
