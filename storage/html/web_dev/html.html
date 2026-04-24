@@ -1,0 +1,2364 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>HTML  |  web.dev</title>
+  
+  
+  <link rel="canonical" href="https://web.dev/html">
+  <link rel="alternate" hreflang="en" href="https://web.dev/html">
+  <link rel="alternate" hreflang="x-default" href="https://web.dev/html">
+  <link rel="alternate" hreflang="ar" href="https://web.dev/html?hl=ar">
+  <link rel="alternate" hreflang="bn" href="https://web.dev/html?hl=bn">
+  <link rel="alternate" hreflang="zh-Hans" href="https://web.dev/html?hl=zh-cn">
+  <link rel="alternate" hreflang="zh-Hant" href="https://web.dev/html?hl=zh-tw">
+  <link rel="alternate" hreflang="fa" href="https://web.dev/html?hl=fa">
+  <link rel="alternate" hreflang="fr" href="https://web.dev/html?hl=fr">
+  <link rel="alternate" hreflang="de" href="https://web.dev/html?hl=de">
+  <link rel="alternate" hreflang="he" href="https://web.dev/html?hl=he">
+  <link rel="alternate" hreflang="hi" href="https://web.dev/html?hl=hi">
+  <link rel="alternate" hreflang="id" href="https://web.dev/html?hl=id">
+  <link rel="alternate" hreflang="it" href="https://web.dev/html?hl=it">
+  <link rel="alternate" hreflang="ja" href="https://web.dev/html?hl=ja">
+  <link rel="alternate" hreflang="ko" href="https://web.dev/html?hl=ko">
+  <link rel="alternate" hreflang="pl" href="https://web.dev/html?hl=pl">
+  <link rel="alternate" hreflang="pt-BR" href="https://web.dev/html?hl=pt-br">
+  <link rel="alternate" hreflang="ru" href="https://web.dev/html?hl=ru">
+  <link rel="alternate" hreflang="es-419" href="https://web.dev/html?hl=es-419">
+  <link rel="alternate" hreflang="th" href="https://web.dev/html?hl=th">
+  <link rel="alternate" hreflang="tr" href="https://web.dev/html?hl=tr">
+  <link rel="alternate" hreflang="vi" href="https://web.dev/html?hl=vi">
+  <link rel="alternate" hreflang="en-cn" href="https://web.developers.google.cn/html">
+  <link rel="alternate" hreflang="x-default" href="https://web.developers.google.cn/html">
+  <link rel="alternate" hreflang="ar-cn" href="https://web.developers.google.cn/html?hl=ar">
+  <link rel="alternate" hreflang="bn-cn" href="https://web.developers.google.cn/html?hl=bn">
+  <link rel="alternate" hreflang="zh-Hans-cn" href="https://web.developers.google.cn/html?hl=zh-cn">
+  <link rel="alternate" hreflang="zh-Hant-cn" href="https://web.developers.google.cn/html?hl=zh-tw">
+  <link rel="alternate" hreflang="fa-cn" href="https://web.developers.google.cn/html?hl=fa">
+  <link rel="alternate" hreflang="fr-cn" href="https://web.developers.google.cn/html?hl=fr">
+  <link rel="alternate" hreflang="de-cn" href="https://web.developers.google.cn/html?hl=de">
+  <link rel="alternate" hreflang="he-cn" href="https://web.developers.google.cn/html?hl=he">
+  <link rel="alternate" hreflang="hi-cn" href="https://web.developers.google.cn/html?hl=hi">
+  <link rel="alternate" hreflang="id-cn" href="https://web.developers.google.cn/html?hl=id">
+  <link rel="alternate" hreflang="it-cn" href="https://web.developers.google.cn/html?hl=it">
+  <link rel="alternate" hreflang="ja-cn" href="https://web.developers.google.cn/html?hl=ja">
+  <link rel="alternate" hreflang="ko-cn" href="https://web.developers.google.cn/html?hl=ko">
+  <link rel="alternate" hreflang="pl-cn" href="https://web.developers.google.cn/html?hl=pl">
+  <link rel="alternate" hreflang="pt-BR-cn" href="https://web.developers.google.cn/html?hl=pt-br">
+  <link rel="alternate" hreflang="ru-cn" href="https://web.developers.google.cn/html?hl=ru">
+  <link rel="alternate" hreflang="es-419-cn" href="https://web.developers.google.cn/html?hl=es-419">
+  <link rel="alternate" hreflang="th-cn" href="https://web.developers.google.cn/html?hl=th">
+  <link rel="alternate" hreflang="tr-cn" href="https://web.developers.google.cn/html?hl=tr">
+  <link rel="alternate" hreflang="vi-cn" href="https://web.developers.google.cn/html?hl=vi">
+</head>
+<body>
+
+          <div class="devsite-sidebar" fixed="" style="--devsite-js-sidebar-max-height: 623px; --devsite-js-sidebar-offset: 0;">
+            <div class="devsite-sidebar-content">
+                
+                <devsite-toc class="devsite-nav" role="navigation" aria-label="On this page" depth="2" scrollbars="" data-nosnippet="" disabled=""></devsite-toc>
+                <devsite-recommendations-sidebar class="nocontent devsite-nav" data-nosnippet="">
+                </devsite-recommendations-sidebar>
+            </div>
+          </div>
+          <devsite-content>
+            
+              
+
+
+
+
+
+
+
+
+
+
+<article class="devsite-article">
+  
+  
+  
+    <div class="devsite-banner devsite-banner-announcement nocontent" data-nosnippet="">
+      <div class="devsite-banner-message">
+        <div class="devsite-banner-message-text">
+          Chrome is back at Google I/O May 19-20! <a href="https://io.google/2026/?utm_source=web&amp;utm_medium=embedded_marketing&amp;utm_campaign=web-dev&amp;utm_content=">Register now</a>
+        </div>
+      </div>
+    </div>
+  
+  
+  
+
+  <div class="devsite-article-meta nocontent" role="navigation" data-nosnippet="">
+    
+    
+    <ul class="devsite-breadcrumb-list">
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+        
+  <a href="https://web.dev/" class="devsite-breadcrumb-link gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Breadcrumbs" data-value="1" track-type="globalNav" track-name="breadcrumb" track-metadata-position="1" track-metadata-eventdetail="web.dev">
+    
+          web.dev
+        
+  </a>
+  
+      
+    
+  </li>
+  
+</ul>
+    
+  </div>
+  
+  
+    
+  
+
+  <devsite-toc class="devsite-nav" depth="2" devsite-toc-embedded="" disabled="">
+  </devsite-toc>
+  
+    
+  <div class="devsite-article-body clearfix
+  ">
+
+  
+    
+  <section class="devsite-landing-row devsite-landing-row-1-up devsite-landing-row-75 devsite-landing-row-hero devsite-landing-row-no-image-background" background="grey" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item" description-position="bottom">
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+    
+  
+  <picture>
+    
+    <img alt="" src="https://web.dev/static/html/image/hero-html.png" srcset="https://web.dev/static/html/image/hero-html_36.png 36w,https://web.dev/static/html/image/hero-html_48.png 48w,https://web.dev/static/html/image/hero-html_72.png 72w,https://web.dev/static/html/image/hero-html_96.png 96w,https://web.dev/static/html/image/hero-html_480.png 480w,https://web.dev/static/html/image/hero-html_720.png 720w,https://web.dev/static/html/image/hero-html_856.png 856w,https://web.dev/static/html/image/hero-html_960.png 960w,https://web.dev/static/html/image/hero-html_1440.png 1440w,https://web.dev/static/html/image/hero-html_1920.png 1920w,https://web.dev/static/html/image/hero-html_2880.png 2880w" sizes="(max-width: 600px) 100vw, (max-width: 840px) 50vw, 342px" fetchpriority="high">
+  </picture>
+  
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="html" data-text="HTML" class="hide-from-toc no-link">
+      
+    
+        HTML
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            HTML is the document layer of the web, providing the structure and content necessary for web pages to be meaningful. Here, you can find content for HTML such as courses, articles, collections, and other useful bits of information to help you build your knowledge of this crucial part of the web.
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-1-up devsite-landing-row-75 devsite-landing-row-no-image-background" background="white" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="jump-ahead-on-this-page" data-text="Jump ahead on this page:" class="hide-from-toc no-link">
+      
+    
+        Jump ahead on this page:
+      
+  
+    </h3>
+  
+
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-2-up" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+      
+
+      
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-column">
+            
+            
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="left">
+
+      
+  
+  <a href="https://web.dev/html#new-to-html">
+    
+  <div class="devsite-landing-row-item-icon-container" background="grey" foreground="light-blue" size="medium">
+  
+    <div class="devsite-landing-row-item-icon material-icons" aria-hidden="true">
+      code
+    </div>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="plearn-htmlp" data-text="Learn HTML" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/html#new-to-html">
+    
+        <p>Learn HTML</p>
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            New to HTML? We've got you covered with a comprehensive course to help you get started.
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="left">
+
+      
+  
+  <a href="https://web.dev/html#check-out-more-courses">
+    
+  <div class="devsite-landing-row-item-icon-container" background="grey" foreground="light-blue" size="medium">
+  
+    <div class="devsite-landing-row-item-icon material-icons" aria-hidden="true">
+      school
+    </div>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="pmore-coursesp" data-text="More courses" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/html#check-out-more-courses">
+    
+        <p>More courses</p>
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Check out these other courses to dig deeper into specific topics in HTML.
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="left">
+
+      
+  
+  <a href="https://web.dev/html#baseline-newly-available-html-features">
+    
+  <div class="devsite-landing-row-item-icon-container" background="grey" foreground="light-blue" size="medium">
+  
+    <picture>
+      
+      <img class="devsite-landing-row-item-icon" alt="" src="https://web.dev/static/baseline/image/newly-available.svg" srcset="https://web.dev/static/baseline/image/newly-available.svg" sizes="64px" loading="lazy">
+    </picture>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="pbaseline-newly-available-features-in-htmlp" data-text="Baseline Newly available features in HTML" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/html#baseline-newly-available-html-features">
+    
+        <p>Baseline Newly available features in HTML</p>
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Learn about the latest HTML features that are newly available in all major browser engines.
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+          </div>
+        
+          <div class="devsite-landing-row-column">
+            
+            
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="left">
+
+      
+  
+  <a href="https://web.dev/html#html-and-accessibility">
+    
+  <div class="devsite-landing-row-item-icon-container" background="grey" foreground="light-blue" size="medium">
+  
+    <div class="devsite-landing-row-item-icon material-icons" aria-hidden="true">
+      accessibility
+    </div>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="phtml-and-accessibilityp" data-text="HTML and accessibility" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/html#html-and-accessibility">
+    
+        <p>HTML and accessibility</p>
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Learn HTML patterns and concepts to help you build more accessible web applications.
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="left">
+
+      
+  
+  <a href="https://web.dev/html#html-and-performance">
+    
+  <div class="devsite-landing-row-item-icon-container" background="grey" foreground="light-blue" size="medium">
+  
+    <div class="devsite-landing-row-item-icon material-icons" aria-hidden="true">
+      bolt
+    </div>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="phtml-and-performancep" data-text="HTML and performance" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/html#html-and-performance">
+    
+        <p>HTML and performance</p>
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Learn HTML-based concepts and patterns for making your your web applications faster.
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="left">
+
+      
+  
+  <a href="https://web.dev/html#debug-html-and-the-dom-with-chrome-devtools">
+    
+  <div class="devsite-landing-row-item-icon-container" background="grey" foreground="light-blue" size="medium">
+  
+    <div class="devsite-landing-row-item-icon material-icons" aria-hidden="true">
+      build
+    </div>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="pdebug-html-and-the-dom-with-chrome-devtoolsp" data-text="Debug HTML and the DOM with Chrome DevTools" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/html#debug-html-and-the-dom-with-chrome-devtools">
+    
+        <p>Debug HTML and the DOM with Chrome DevTools</p>
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Learn how to use Chrome DevTools to debug HTML and the DOM in your web applications.
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+          </div>
+        
+        </div>
+
+      
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-1-up devsite-landing-row-75 devsite-landing-row-no-image-background" background="grey" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item" description-position="bottom">
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://web.dev/learn/html">
+    
+  
+  <picture>
+    
+    <img alt="" src="https://web.dev/static/learn/html/card.png" srcset="https://web.dev/static/learn/html/card_36.png 36w,https://web.dev/static/learn/html/card_48.png 48w,https://web.dev/static/learn/html/card_72.png 72w,https://web.dev/static/learn/html/card_96.png 96w,https://web.dev/static/learn/html/card_480.png 480w,https://web.dev/static/learn/html/card_720.png 720w,https://web.dev/static/learn/html/card_856.png 856w,https://web.dev/static/learn/html/card_960.png 960w,https://web.dev/static/learn/html/card_1440.png 1440w,https://web.dev/static/learn/html/card_1920.png 1920w,https://web.dev/static/learn/html/card_2880.png 2880w" sizes="(max-width: 600px) 100vw, (max-width: 840px) 50vw, 342px" loading="lazy">
+  </picture>
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+          <div class="devsite-landing-row-item-labels">
+  
+
+  
+  <span class="devsite-label
+             
+             ">COURSE</span>
+
+</div>
+        
+
+        
+    <h3 id="span-idnew-to-htmlnew-to-htmlspan" data-text="New to HTML?" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/learn/html">
+    
+        <span id="new-to-html">New to HTML?</span>
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <p>If you're new to HTML, we've got you covered. Our <a href="/learn/html">Learn HTML</a> course guides you through the fundamentals of how HTML works, such as structural concerns, metadata, semantics, and further topics to help you sharpen your skills.</p>
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/learn/html" class="button
+      ">Learn HTML!</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-1-up devsite-landing-row-100 devsite-landing-row-padding-small" background="white" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="span-idcheck-out-more-coursescheck-out-more-coursesspan" data-text="Check out more courses." class="hide-from-toc no-link">
+      
+    
+        <span id="check-out-more-courses">Check out more courses.</span>
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <p>If you're interested in learning more about HTML, these other courses will teach you about more advanced topics use can use to improve your web applications.</p>
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-3-up devsite-landing-row-cards devsite-landing-row-padding-small devsite-landing-row-no-image-background devsite-landing-row-item-centered" background="white" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item" description-position="bottom">
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://web.dev/learn/forms">
+    
+  
+  <picture>
+    
+    <img alt="" src="https://web.dev/static/learn/forms/card.png" srcset="https://web.dev/static/learn/forms/card_36.png 36w,https://web.dev/static/learn/forms/card_48.png 48w,https://web.dev/static/learn/forms/card_72.png 72w,https://web.dev/static/learn/forms/card_96.png 96w,https://web.dev/static/learn/forms/card_480.png 480w,https://web.dev/static/learn/forms/card_720.png 720w,https://web.dev/static/learn/forms/card_856.png 856w,https://web.dev/static/learn/forms/card_960.png 960w,https://web.dev/static/learn/forms/card_1440.png 1440w,https://web.dev/static/learn/forms/card_1920.png 1920w,https://web.dev/static/learn/forms/card_2880.png 2880w" sizes="(max-width: 840px) 50vw, 464px" loading="lazy">
+  </picture>
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="forms" data-text="Forms" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/learn/forms">
+    
+        Forms
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            HTML forms give users the ability to provide input for your web applications—and this course will teach you all you need to know about using them effectively.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/learn/forms" class="button button-primary
+      ">Learn Forms!</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item" description-position="bottom">
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://web.dev/learn/images">
+    
+  
+  <picture>
+    
+    <img alt="" src="https://web.dev/static/learn/images/card.png" srcset="https://web.dev/static/learn/images/card_36.png 36w,https://web.dev/static/learn/images/card_48.png 48w,https://web.dev/static/learn/images/card_72.png 72w,https://web.dev/static/learn/images/card_96.png 96w,https://web.dev/static/learn/images/card_480.png 480w,https://web.dev/static/learn/images/card_720.png 720w,https://web.dev/static/learn/images/card_856.png 856w,https://web.dev/static/learn/images/card_960.png 960w,https://web.dev/static/learn/images/card_1440.png 1440w,https://web.dev/static/learn/images/card_1920.png 1920w,https://web.dev/static/learn/images/card_2880.png 2880w" sizes="(max-width: 840px) 50vw, 464px" loading="lazy">
+  </picture>
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="images" data-text="Images" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/learn/images">
+    
+        Images
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            While images are commonly used on the web, there's more to it than using the <code translate="no" dir="ltr">img</code> element. This course teaches you all you need to know about how to use images on the web.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/learn/images" class="button button-primary
+      ">Learn Images!</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item" description-position="bottom">
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://web.dev/learn/accessibility">
+    
+  
+  <picture>
+    
+    <img alt="" src="https://web.dev/static/learn/accessibility/card.png" srcset="https://web.dev/static/learn/accessibility/card_36.png 36w,https://web.dev/static/learn/accessibility/card_48.png 48w,https://web.dev/static/learn/accessibility/card_72.png 72w,https://web.dev/static/learn/accessibility/card_96.png 96w,https://web.dev/static/learn/accessibility/card_480.png 480w,https://web.dev/static/learn/accessibility/card_720.png 720w,https://web.dev/static/learn/accessibility/card_856.png 856w,https://web.dev/static/learn/accessibility/card_960.png 960w,https://web.dev/static/learn/accessibility/card_1440.png 1440w,https://web.dev/static/learn/accessibility/card_1920.png 1920w,https://web.dev/static/learn/accessibility/card_2880.png 2880w" sizes="(max-width: 840px) 50vw, 464px" loading="lazy">
+  </picture>
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="accessibility" data-text="Accessibility" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/learn/accessibility">
+    
+        Accessibility
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            While accessibility spans all parts of the web platform, writing accessible HTML is the cornerstone of building accessible web applications. This course teaches you everything you need to know to write accessible markup.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/learn/accessibility" class="button button-primary
+      ">Learn Accessibility!</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-1-up devsite-landing-row-100 devsite-landing-row-padding-small" background="grey" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="span-idbaseline-newly-available-html-featuresbaseline-newly-available-html-featuresspan" data-text="Baseline Newly available HTML features" class="hide-from-toc no-link">
+      
+    
+        <span id="baseline-newly-available-html-features">Baseline Newly available HTML features</span>
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <p><a href="/baseline">Baseline</a> signals to web developers when web platform features can be safely used in all major browser engines. Here are some HTML features that are now Baseline Newly available.</p>
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-2-up" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+      
+
+      
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-column">
+            
+            
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media wd-2col-icons-list" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="left">
+
+      
+  
+  <a href="https://developer.chrome.com/docs/css-ui/exclusive-accordion">
+    
+  <div class="devsite-landing-row-item-icon-container" size="medium">
+  
+    <picture>
+      
+      <img class="devsite-landing-row-item-icon" alt="" src="https://web.dev/static/baseline/image/newly-available.svg" srcset="https://web.dev/static/baseline/image/newly-available.svg" sizes="64px" loading="lazy">
+    </picture>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="exclusive-accordions" data-text="Exclusive accordions" class="hide-from-toc no-link">
+      
+  <a href="https://developer.chrome.com/docs/css-ui/exclusive-accordion">
+    
+        Exclusive accordions
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Exclusive accordions became Baseline Newly available in September 2024.
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media wd-2col-icons-list" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="left">
+
+      
+  
+  <a href="https://web.dev/articles/declarative-shadow-dom">
+    
+  <div class="devsite-landing-row-item-icon-container" size="medium">
+  
+    <picture>
+      
+      <img class="devsite-landing-row-item-icon" alt="" src="https://web.dev/static/baseline/image/newly-available.svg" srcset="https://web.dev/static/baseline/image/newly-available.svg" sizes="64px" loading="lazy">
+    </picture>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="declarative-shadow-dom" data-text="Declarative Shadow DOM" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/articles/declarative-shadow-dom">
+    
+        Declarative Shadow DOM
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Declarative Shadow DOM became Baseline Newly available in February 2024.
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media wd-2col-icons-list" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="left">
+
+      
+  
+  <a href="https://web.dev/blog/popover-api">
+    
+  <div class="devsite-landing-row-item-icon-container" size="medium">
+  
+    <picture>
+      
+      <img class="devsite-landing-row-item-icon" alt="" src="https://web.dev/static/baseline/image/newly-available.svg" srcset="https://web.dev/static/baseline/image/newly-available.svg" sizes="64px" loading="lazy">
+    </picture>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="the-popover-api" data-text="The Popover API" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/blog/popover-api">
+    
+        The Popover API
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            The Popover API became Baseline Newly available in April 2024.
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+          </div>
+        
+          <div class="devsite-landing-row-column">
+            
+            
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media wd-2col-icons-list" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="left">
+
+      
+  
+  <a href="https://web.dev/articles/inert">
+    
+  <div class="devsite-landing-row-item-icon-container" size="medium">
+  
+    <picture>
+      
+      <img class="devsite-landing-row-item-icon" alt="" src="https://web.dev/static/baseline/image/newly-available.svg" srcset="https://web.dev/static/baseline/image/newly-available.svg" sizes="64px" loading="lazy">
+    </picture>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="the-inert-attribute" data-text="The inert attribute" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/articles/inert">
+    
+        The inert attribute
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            The inert attribute became Baseline Newly available in April 2023.
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media wd-2col-icons-list" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="left">
+
+      
+  
+  <a href="https://web.dev/articles/iframe-lazy-loading">
+    
+  <div class="devsite-landing-row-item-icon-container" size="medium">
+  
+    <picture>
+      
+      <img class="devsite-landing-row-item-icon" alt="" src="https://web.dev/static/baseline/image/newly-available.svg" srcset="https://web.dev/static/baseline/image/newly-available.svg" sizes="64px" loading="lazy">
+    </picture>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="lazy-load-offscreen-iframes" data-text="Lazy-load offscreen iframes" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/articles/iframe-lazy-loading">
+    
+        Lazy-load offscreen iframes
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Lazy-loading of iframes became Baseline Newly available in December 2023.
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+          </div>
+        
+        </div>
+
+      
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-1-up devsite-landing-row-100 devsite-landing-row-padding-small" background="grey" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="span-idhtml-and-accessibilityhtml-and-accessibilityspan" data-text="HTML and accessibility" class="hide-from-toc no-link">
+      
+    
+        <span id="html-and-accessibility">HTML and accessibility</span>
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <p>HTML is a fundamental part of building accessible web applications. In this section, you'll find articles and resources to help you learn more about how to use HTML to build accessible web applications.</p>
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-4-up devsite-landing-row-cards devsite-landing-row-item-centered" background="grey" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="top">
+
+      
+  
+  <a href="https://web.dev/articles/headings-and-landmarks">
+    
+  <div class="devsite-landing-row-item-icon-container" background="grey" foreground="light-blue" size="medium">
+  
+    <div class="devsite-landing-row-item-icon material-icons" aria-hidden="true">
+      article
+    </div>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="headings-and-landmarks" data-text="Headings and landmarks" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/articles/headings-and-landmarks">
+    
+        Headings and landmarks
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            By using the correct elements for headings and landmarks, you can dramatically improve the navigation experience for users of assitive technology.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/articles/headings-and-landmarks" class="button button-primary
+      ">Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="top">
+
+      
+  
+  <a href="https://web.dev/articles/use-semantic-html">
+    
+  <div class="devsite-landing-row-item-icon-container" background="grey" foreground="light-blue" size="medium">
+  
+    <div class="devsite-landing-row-item-icon material-icons" aria-hidden="true">
+      article
+    </div>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="use-semantic-html-for-easy-keyboard-wins" data-text="Use semantic HTML for easy keyboard wins" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/articles/use-semantic-html">
+    
+        Use semantic HTML for easy keyboard wins
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            By using the correct semantic HTML elements you may be able to meet most or all of your keyboard access needs. That means less time fiddling with tabindex, and more happy users!
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/articles/use-semantic-html" class="button button-primary
+      ">Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="top">
+
+      
+  
+  <a href="https://web.dev/articles/keyboard-access">
+    
+  <div class="devsite-landing-row-item-icon-container" background="grey" foreground="light-blue" size="medium">
+  
+    <div class="devsite-landing-row-item-icon material-icons" aria-hidden="true">
+      article
+    </div>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="keyboard-access-fundamentals" data-text="Keyboard access fundamentals" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/articles/keyboard-access">
+    
+        Keyboard access fundamentals
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Many users with temporary and permanent motor impairments rely on keyboard shortcuts to navigate applications more efficiently. Having a good keyboard navigation strategy for your application creates a better experience for everyone.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/articles/keyboard-access" class="button button-primary
+      ">Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="top">
+
+      
+  
+  <a href="https://web.dev/articles/labels-and-text-alternatives">
+    
+  <div class="devsite-landing-row-item-icon-container" background="grey" foreground="light-blue" size="medium">
+  
+    <div class="devsite-landing-row-item-icon material-icons" aria-hidden="true">
+      article
+    </div>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="labels-and-text-alternatives" data-text="Labels and text alternatives" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/articles/labels-and-text-alternatives">
+    
+        Labels and text alternatives
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            In order for a screen reader to present a spoken UI to the user, meaningful elements must have proper labels or text alternatives. A label or text alternative gives an element its accessible name, one of the key properties for expressing element semantics in the accessibility tree.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/articles/labels-and-text-alternatives" class="button button-primary
+      ">Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-1-up devsite-landing-row-100 devsite-landing-row-padding-small" background="white" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="span-idhtml-and-performancehtml-and-performancespan" data-text="HTML and performance" class="hide-from-toc no-link">
+      
+    
+        <span id="html-and-performance">HTML and performance</span>
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <p>How you use HTML can affect the performance of your web applications. In this section, you'll find articles and resources to help you learn more about how to use HTML to make your web applications faster.</p>
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-4-up devsite-landing-row-cards devsite-landing-row-item-centered" background="white" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" background="grey" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="top">
+
+      
+  
+  <a href="https://web.dev/articles/preload-scanner">
+    
+  <div class="devsite-landing-row-item-icon-container" background="white" foreground="light-blue" size="medium">
+  
+    <div class="devsite-landing-row-item-icon material-icons" aria-hidden="true">
+      article
+    </div>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="dont-fight-the-browser-preload-scanner" data-text="Don't fight the browser preload scanner" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/articles/preload-scanner">
+    
+        Don't fight the browser preload scanner
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            The browser preload scanner is a specialized HTML parser that the browser uses to discover resources earlier than it otherwise would. Find out how it helps the performance of web applications, and how you can stay out of its way.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/articles/preload-scanner" class="button button-primary
+      ">Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" background="grey" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="top">
+
+      
+  
+  <a href="https://web.dev/articles/fetch-priority">
+    
+  <div class="devsite-landing-row-item-icon-container" background="white" foreground="light-blue" size="medium">
+  
+    <div class="devsite-landing-row-item-icon material-icons" aria-hidden="true">
+      article
+    </div>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="optimize-resource-loading-with-the-fetch-priority-api" data-text="Optimize resource loading with the Fetch Priority API" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/articles/fetch-priority">
+    
+        Optimize resource loading with the Fetch Priority API
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            The Fetch Priority API uses the <code translate="no" dir="ltr">fetchpriority</code> HTML attribute to indicate the relative priority of resources to the browser. It can enable optimal loading and improve <a href="/articles/vitals">Core Web Vitals</a>.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/articles/fetch-priority" class="button button-primary
+      ">Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" background="grey" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="top">
+
+      
+  
+  <a href="https://web.dev/articles/preload-critical-assets">
+    
+  <div class="devsite-landing-row-item-icon-container" background="white" foreground="light-blue" size="medium">
+  
+    <div class="devsite-landing-row-item-icon material-icons" aria-hidden="true">
+      article
+    </div>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="preload-critical-assets-to-improve-loading-speed" data-text="Preload critical assets to improve loading speed" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/articles/preload-critical-assets">
+    
+        Preload critical assets to improve loading speed
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Resource preloading a technique that uses the HTML <code translate="no" dir="ltr">link</code> element to tell the browser to fetch a resource before it is needed. Learn how to use it to improve the performance of your web applications in this guide.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/articles/preload-critical-assets" class="button button-primary
+      ">Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" background="grey" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="top">
+
+      
+  
+  <a href="https://web.dev/articles/browser-level-image-lazy-loading">
+    
+  <div class="devsite-landing-row-item-icon-container" background="white" foreground="light-blue" size="medium">
+  
+    <div class="devsite-landing-row-item-icon material-icons" aria-hidden="true">
+      article
+    </div>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="browser-level-image-lazy-loading-for-the-web" data-text="Browser-level image lazy loading for the web" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/articles/browser-level-image-lazy-loading">
+    
+        Browser-level image lazy loading for the web
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Lazy loading images is an effective technique for conserving bandwidth during the initial loading of a page. In this guide, can learn how to use the HTML <code translate="no" dir="ltr">loading</code> to lazy load images.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/articles/browser-level-image-lazy-loading" class="button button-primary
+      ">Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-1-up devsite-landing-row-100 devsite-landing-row-padding-small" background="grey" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="span-iddebug-html-and-the-dom-with-chrome-devtoolsdebug-html-and-the-dom-with-chrome-devtoolsspan" data-text="Debug HTML and the DOM with Chrome DevTools" class="hide-from-toc no-link">
+      
+    
+        <span id="debug-html-and-the-dom-with-chrome-devtools">Debug HTML and the DOM with Chrome DevTools</span>
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <p><a href="https://developer.chrome.com/docs/devtools">Chrome DevTools</a> is a suite of tools for developers to debug web applications. Here are a few suggested tools for you to check out to help you debug your page's HTML and DOM in your web applications, as well as other adjacent concepts.</p>
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-3-up devsite-landing-row-cards devsite-landing-row-item-centered" background="grey" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="top">
+
+      
+  
+  <a href="https://developer.chrome.com/docs/devtools/dom">
+    
+  <div class="devsite-landing-row-item-icon-container" background="grey" foreground="light-blue" size="medium">
+  
+    <div class="devsite-landing-row-item-icon material-icons" aria-hidden="true">
+      code
+    </div>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="get-started-with-viewing-and-changing-the-dom" data-text="Get started with viewing and changing the DOM" class="hide-from-toc no-link">
+      
+  <a href="https://developer.chrome.com/docs/devtools/dom">
+    
+        Get started with viewing and changing the DOM
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            DevTools offers the Elements panel, which lets you view, edit, and debug your web application's DOM. Read this guide to get started with using the Elements panel.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developer.chrome.com/docs/devtools/dom" class="button button-primary
+      ">Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="top">
+
+      
+  
+  <a href="https://developer.chrome.com/docs/devtools/javascript/breakpoints#dom">
+    
+  <div class="devsite-landing-row-item-icon-container" background="grey" foreground="light-blue" size="medium">
+  
+    <div class="devsite-landing-row-item-icon material-icons" aria-hidden="true">
+      code
+    </div>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="listen-for-dom-changes" data-text="Listen for DOM changes" class="hide-from-toc no-link">
+      
+  <a href="https://developer.chrome.com/docs/devtools/javascript/breakpoints#dom">
+    
+        Listen for DOM changes
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            The Elements panel in DevTools lets you listen for changes to the DOM triggered by JavaScript. Learn how to use this useful feature to debug changes to your web application's DOM.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developer.chrome.com/docs/devtools/javascript/breakpoints#dom" class="button button-primary
+      ">Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="top">
+
+      
+  
+  <a href="https://developer.chrome.com/docs/devtools/coverage">
+    
+  <div class="devsite-landing-row-item-icon-container" background="grey" foreground="light-blue" size="medium">
+  
+    <div class="devsite-landing-row-item-icon material-icons" aria-hidden="true">
+      code
+    </div>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="find-unused-code-loaded-by-your-web-applications-html" data-text="Find unused code loaded by your web application's HTML" class="hide-from-toc no-link">
+      
+  <a href="https://developer.chrome.com/docs/devtools/coverage">
+    
+        Find unused code loaded by your web application's HTML
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            The Coverage panel is a useful tool for finding unused CSS and JavaScript code loaded by your web application's HTML. This guide shows you how to use it, and how it can improve the performance of your web applications.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developer.chrome.com/docs/devtools/coverage" class="button button-primary
+      ">Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  
+
+  
+</div>
+
+  
+
+  <div class="devsite-floating-action-buttons"></div></article>
+
+
+
+<devsite-notification>
+</devsite-notification>
+
+
+  
+<div class="devsite-content-data">
+  
+  
+    
+  
+</div>
+            
+          </devsite-content>
+        
+</body>
+</html>

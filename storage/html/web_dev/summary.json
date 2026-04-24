@@ -1,0 +1,3510 @@
+{
+  "status": "success",
+  "startUrl": "https://web.dev/",
+  "outputDir": "C:\\Users\\muafa\\Documents\\laidback\\projects\\cmlabs-backend-crawler-freelance-test\\storage\\html\\web_dev",
+  "totalCrawled": 3,
+  "pages": [
+    {
+      "status": "success",
+      "url": "https://web.dev/",
+      "title": "web.dev",
+      "fileName": "index.html",
+      "filePath": "C:\\Users\\muafa\\Documents\\laidback\\projects\\cmlabs-backend-crawler-freelance-test\\storage\\html\\web_dev\\index.html",
+      "renderTimeMs": 5328,
+      "depth": 0,
+      "discoveredLinksCount": 68,
+      "seo": {
+        "description": "Guidance to build modern web experiences that work on any browser.",
+        "robots": "",
+        "canonical": "https://web.dev/",
+        "hreflangs": [
+          {
+            "hreflang": "en",
+            "href": "https://web.dev/"
+          },
+          {
+            "hreflang": "x-default",
+            "href": "https://web.dev/"
+          },
+          {
+            "hreflang": "ar",
+            "href": "https://web.dev/?hl=ar"
+          },
+          {
+            "hreflang": "bn",
+            "href": "https://web.dev/?hl=bn"
+          },
+          {
+            "hreflang": "zh-Hans",
+            "href": "https://web.dev/?hl=zh-cn"
+          },
+          {
+            "hreflang": "zh-Hant",
+            "href": "https://web.dev/?hl=zh-tw"
+          },
+          {
+            "hreflang": "fa",
+            "href": "https://web.dev/?hl=fa"
+          },
+          {
+            "hreflang": "fr",
+            "href": "https://web.dev/?hl=fr"
+          },
+          {
+            "hreflang": "de",
+            "href": "https://web.dev/?hl=de"
+          },
+          {
+            "hreflang": "he",
+            "href": "https://web.dev/?hl=he"
+          },
+          {
+            "hreflang": "hi",
+            "href": "https://web.dev/?hl=hi"
+          },
+          {
+            "hreflang": "id",
+            "href": "https://web.dev/?hl=id"
+          },
+          {
+            "hreflang": "it",
+            "href": "https://web.dev/?hl=it"
+          },
+          {
+            "hreflang": "ja",
+            "href": "https://web.dev/?hl=ja"
+          },
+          {
+            "hreflang": "ko",
+            "href": "https://web.dev/?hl=ko"
+          },
+          {
+            "hreflang": "pl",
+            "href": "https://web.dev/?hl=pl"
+          },
+          {
+            "hreflang": "pt-BR",
+            "href": "https://web.dev/?hl=pt-br"
+          },
+          {
+            "hreflang": "es-419",
+            "href": "https://web.dev/?hl=es-419"
+          },
+          {
+            "hreflang": "th",
+            "href": "https://web.dev/?hl=th"
+          },
+          {
+            "hreflang": "tr",
+            "href": "https://web.dev/?hl=tr"
+          },
+          {
+            "hreflang": "vi",
+            "href": "https://web.dev/?hl=vi"
+          },
+          {
+            "hreflang": "en-cn",
+            "href": "https://web.developers.google.cn/"
+          },
+          {
+            "hreflang": "x-default",
+            "href": "https://web.developers.google.cn/"
+          },
+          {
+            "hreflang": "ar-cn",
+            "href": "https://web.developers.google.cn/?hl=ar"
+          },
+          {
+            "hreflang": "bn-cn",
+            "href": "https://web.developers.google.cn/?hl=bn"
+          },
+          {
+            "hreflang": "zh-Hans-cn",
+            "href": "https://web.developers.google.cn/?hl=zh-cn"
+          },
+          {
+            "hreflang": "zh-Hant-cn",
+            "href": "https://web.developers.google.cn/?hl=zh-tw"
+          },
+          {
+            "hreflang": "fa-cn",
+            "href": "https://web.developers.google.cn/?hl=fa"
+          },
+          {
+            "hreflang": "fr-cn",
+            "href": "https://web.developers.google.cn/?hl=fr"
+          },
+          {
+            "hreflang": "de-cn",
+            "href": "https://web.developers.google.cn/?hl=de"
+          },
+          {
+            "hreflang": "he-cn",
+            "href": "https://web.developers.google.cn/?hl=he"
+          },
+          {
+            "hreflang": "hi-cn",
+            "href": "https://web.developers.google.cn/?hl=hi"
+          },
+          {
+            "hreflang": "id-cn",
+            "href": "https://web.developers.google.cn/?hl=id"
+          },
+          {
+            "hreflang": "it-cn",
+            "href": "https://web.developers.google.cn/?hl=it"
+          },
+          {
+            "hreflang": "ja-cn",
+            "href": "https://web.developers.google.cn/?hl=ja"
+          },
+          {
+            "hreflang": "ko-cn",
+            "href": "https://web.developers.google.cn/?hl=ko"
+          },
+          {
+            "hreflang": "pl-cn",
+            "href": "https://web.developers.google.cn/?hl=pl"
+          },
+          {
+            "hreflang": "pt-BR-cn",
+            "href": "https://web.developers.google.cn/?hl=pt-br"
+          },
+          {
+            "hreflang": "es-419-cn",
+            "href": "https://web.developers.google.cn/?hl=es-419"
+          },
+          {
+            "hreflang": "th-cn",
+            "href": "https://web.developers.google.cn/?hl=th"
+          },
+          {
+            "hreflang": "tr-cn",
+            "href": "https://web.developers.google.cn/?hl=tr"
+          },
+          {
+            "hreflang": "vi-cn",
+            "href": "https://web.developers.google.cn/?hl=vi"
+          }
+        ],
+        "openGraph": {
+          "title": "web.dev",
+          "description": "Guidance to build modern web experiences that work on any browser.",
+          "url": "https://web.dev/",
+          "image": "https://web.dev/images/social-wide.jpg",
+          "type": "website"
+        },
+        "twitter": {
+          "card": "summary",
+          "title": "",
+          "description": "",
+          "image": "https://web.dev/static/images/social-wide.jpg"
+        },
+        "headings": {
+          "h1": [],
+          "h2": [
+            "Explore the web platform",
+            "Learn the web platform",
+            "Baseline",
+            "CSS and UI design",
+            "Core Web Vitals",
+            "Progressive Web Apps",
+            "Accessible for all",
+            "Payments and identity",
+            "Developer Newsletter"
+          ],
+          "h3": [
+            "Building a better web, together",
+            "Navigation API is now Baseline Newly available",
+            "AI and the web",
+            "Optimize INP",
+            "Payments & Identity",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Learn HTML",
+            "Learn CSS",
+            "Learn JavaScript",
+            "Keep up on web development news",
+            "March 2026 Baseline monthly digest",
+            "February 2026 Baseline monthly digest",
+            "January 2026 Baseline monthly digest",
+            "December 2025 Baseline monthly digest",
+            "Adapting typography to user preference using CSS",
+            "New CSS color spaces and functions in all major engines",
+            "What are source maps?",
+            "CSS subgrid",
+            "The most effective ways to improve Core Web Vitals",
+            "How to optimize INP",
+            "Common misconceptions about how to optimize LCP",
+            "Best practices for measuring Web Vitals in the field",
+            "Learn PWA",
+            "TransformStream is now supported cross browser.",
+            "New patterns for amazing apps",
+            "Project Fugu API showcase",
+            "Learn Accessibility",
+            "Testing web design color contrast",
+            "Building the main navigation for a website",
+            "Community highlight: Melanie Sumner",
+            "Create a passkey for passwordless logins",
+            "Sign in with a passkey",
+            "Web payments overview",
+            "Payment and address form best practices",
+            "web.dev",
+            "web.dev",
+            "Contribute",
+            "Related Content",
+            "Follow"
+          ]
+        },
+        "internalLinks": [
+          {
+            "url": "https://web.dev/",
+            "text": "Skip to main content",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "HTML",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "CSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/javascript",
+            "text": "JavaScript",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/performance",
+            "text": "Performance",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/accessibility",
+            "text": "Accessibility",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/identity",
+            "text": "Identity",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/html",
+            "text": "Learn HTML",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/css",
+            "text": "Learn CSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/javascript",
+            "text": "Learn JavaScript",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/ai",
+            "text": "Learn AI",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/performance",
+            "text": "Learn Performance",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/accessibility",
+            "text": "Learn Accessibility",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn",
+            "text": "More courses",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore/ai",
+            "text": "AI and the web",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore",
+            "text": "Explore",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/patterns",
+            "text": "Patterns",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/shows",
+            "text": "Podcasts & shows",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/newsletter",
+            "text": "Developer Newsletter",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/about",
+            "text": "About web.dev",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/baseline",
+            "text": "Baseline",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/how-to-use-baseline",
+            "text": "How to use Baseline",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog",
+            "text": "Blog",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/case-studies",
+            "text": "Case Studies",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/",
+            "text": "English",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=de",
+            "text": "Deutsch",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=es-419",
+            "text": "Español – América Latina",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=fr",
+            "text": "Français",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=id",
+            "text": "Indonesia",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=it",
+            "text": "Italiano",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=pl",
+            "text": "Polski",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=pt-br",
+            "text": "Português – Brasil",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=vi",
+            "text": "Tiếng Việt",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=tr",
+            "text": "Türkçe",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=he",
+            "text": "עברית",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=ar",
+            "text": "العربيّة",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=fa",
+            "text": "فارسی",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=hi",
+            "text": "हिंदी",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=bn",
+            "text": "বাংলা",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=th",
+            "text": "ภาษาไทย",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=zh-cn",
+            "text": "中文 – 简体",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=zh-tw",
+            "text": "中文 – 繁體",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=ja",
+            "text": "日本語",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=ko",
+            "text": "한국어",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/_d/signin?continue=https%3A%2F%2Fweb.dev%2F&prompt=select_account",
+            "text": "Sign in",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/baseline",
+            "text": "Baseline",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/how-to-use-baseline",
+            "text": "How to use Baseline",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog",
+            "text": "Blog",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/case-studies",
+            "text": "Case Studies",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "HTML",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "CSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/javascript",
+            "text": "JavaScript",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/performance",
+            "text": "Performance",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/accessibility",
+            "text": "Accessibility",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/identity",
+            "text": "Identity",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/html",
+            "text": "Learn HTML",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/css",
+            "text": "Learn CSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/javascript",
+            "text": "Learn JavaScript",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/ai",
+            "text": "Learn AI",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/performance",
+            "text": "Learn Performance",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/accessibility",
+            "text": "Learn Accessibility",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn",
+            "text": "More courses",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore/ai",
+            "text": "AI and the web",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore",
+            "text": "Explore",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/patterns",
+            "text": "Patterns",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/shows",
+            "text": "Podcasts &amp; shows",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/newsletter",
+            "text": "Developer Newsletter",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/about",
+            "text": "About web.dev",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/",
+            "text": "web.dev",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog/baseline-navigation-api",
+            "text": "Navigation API is now Baseline Newly available",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore/ai",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore/ai",
+            "text": "AI and the web",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore/ai",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore/how-to-optimize-inp",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore/how-to-optimize-inp",
+            "text": "Optimize INP",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore/how-to-optimize-inp",
+            "text": "Start measuring and optimizing",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore/how-to-optimize-inp",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/identity",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/identity",
+            "text": "Payments & Identity",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/identity",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore",
+            "text": "Start exploring",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "image",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "HTML",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "web",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "CSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/javascript",
+            "text": "timer",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/javascript",
+            "text": "JavaScript",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/javascript",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn",
+            "text": "Start learning",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/html",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/html",
+            "text": "Learn HTML",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/html",
+            "text": "Start course",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/css",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/css",
+            "text": "Learn CSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/css",
+            "text": "Start course",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/javascript",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/javascript",
+            "text": "Learn JavaScript",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/javascript",
+            "text": "Start course",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog",
+            "text": "Read the blog",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/baseline",
+            "text": "Baseline",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/baseline",
+            "text": "More on Baseline",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog/baseline-digest-mar-2026",
+            "text": "March 2026 Baseline monthly digest",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog/baseline-digest-feb-2026",
+            "text": "February 2026 Baseline monthly digest",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog/baseline-digest-jan-2026",
+            "text": "January 2026 Baseline monthly digest",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog/baseline-digest-dec-2025",
+            "text": "December 2025 Baseline monthly digest",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "Explore CSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/adapting-typography-to-user-preferences-with-css",
+            "text": "Adapting typography to user preference using CSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog/color-spaces-and-functions",
+            "text": "New CSS color spaces and functions in all major engines",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/source-maps",
+            "text": "What are source maps?",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/css-subgrid",
+            "text": "CSS subgrid",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/performance",
+            "text": "Explore Core Web Vitals",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/top-cwv",
+            "text": "The most effective ways to improve Core Web Vitals",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore/how-to-optimize-inp",
+            "text": "How to optimize INP",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog/common-misconceptions-lcp",
+            "text": "Common misconceptions about how to optimize LCP",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/vitals-field-measurement-best-practices",
+            "text": "Best practices for measuring Web Vitals in the field",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore/progressive-web-apps",
+            "text": "More on PWA",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/pwa",
+            "text": "Learn PWA",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog/transformstream",
+            "text": "TransformStream is now supported cross browser.",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog/new-patterns-for-amazing-apps",
+            "text": "New patterns for amazing apps",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/accessibility",
+            "text": "More on accessibility",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/accessibility",
+            "text": "Learn Accessibility",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/testing-web-design-color-contrast",
+            "text": "Testing web design color contrast",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/website-navigation",
+            "text": "Building the main navigation for a website",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog/community-highlights/melanie",
+            "text": "Community highlight: Melanie Sumner",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/identity",
+            "text": "More on identity",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/passkey-registration",
+            "text": "Create a passkey for passwordless logins",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/passkey-form-autofill",
+            "text": "Sign in with a passkey",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/web-payments-overview",
+            "text": "Web payments overview",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/payment-and-address-form-best-practices",
+            "text": "Payment and address form best practices",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/case-studies",
+            "text": "Case studies",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/shows",
+            "text": "Podcasts & shows",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/static/blog/feed.xml",
+            "text": "RSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/",
+            "text": "Manage cookies",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/",
+            "text": "English",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=de",
+            "text": "Deutsch",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=es-419",
+            "text": "Español – América Latina",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=fr",
+            "text": "Français",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=id",
+            "text": "Indonesia",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=it",
+            "text": "Italiano",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=pl",
+            "text": "Polski",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=pt-br",
+            "text": "Português – Brasil",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=vi",
+            "text": "Tiếng Việt",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=tr",
+            "text": "Türkçe",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=he",
+            "text": "עברית",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=ar",
+            "text": "العربيّة",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=fa",
+            "text": "فارسی",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=hi",
+            "text": "हिंदी",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=bn",
+            "text": "বাংলা",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=th",
+            "text": "ภาษาไทย",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=zh-cn",
+            "text": "中文 – 简体",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=zh-tw",
+            "text": "中文 – 繁體",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=ja",
+            "text": "日本語",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/?hl=ko",
+            "text": "한국어",
+            "type": "internal"
+          }
+        ],
+        "externalLinks": [
+          {
+            "url": "https://pagespeed.web.dev/",
+            "text": "PageSpeed Insights",
+            "type": "external"
+          },
+          {
+            "url": "https://pagespeed.web.dev/",
+            "text": "PageSpeed Insights",
+            "type": "external"
+          },
+          {
+            "url": "https://io.google/2026",
+            "text": "Register now",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.chrome.com/fugu-showcase",
+            "text": "Project Fugu API showcase",
+            "type": "external"
+          },
+          {
+            "url": "https://issuetracker.google.com/issues/new?component=1400680&template=1857359",
+            "text": "File a bug",
+            "type": "external"
+          },
+          {
+            "url": "https://issuetracker.google.com/issues?q=status%3Aopen+componentid%3A1400680&s=created_time%3Adesc",
+            "text": "See open issues",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.chrome.com/",
+            "text": "Chrome for Developers",
+            "type": "external"
+          },
+          {
+            "url": "https://blog.chromium.org/",
+            "text": "Chromium updates",
+            "type": "external"
+          },
+          {
+            "url": "https://twitter.com/ChromiumDev",
+            "text": "@ChromiumDev on X",
+            "type": "external"
+          },
+          {
+            "url": "https://www.youtube.com/user/ChromeDevelopers",
+            "text": "YouTube",
+            "type": "external"
+          },
+          {
+            "url": "https://www.linkedin.com/showcase/chrome-for-developers",
+            "text": "Chrome for Developers on LinkedIn",
+            "type": "external"
+          },
+          {
+            "url": "https://policies.google.com/terms",
+            "text": "Terms",
+            "type": "external"
+          },
+          {
+            "url": "https://policies.google.com/privacy",
+            "text": "Privacy",
+            "type": "external"
+          }
+        ],
+        "textSnippet": "Chrome is back at Google I/O May 19-20! Register now web.dev Building a better web, together We want to help you build beautiful, accessible, fast, and secure websites that work cross-browser, and for all of your users. This site is our home for content to help you on that journey, written by members of the Chrome team, and external experts who specialize in web development topics such as accessibility, performance, design, and more. Navigation API is now Baseline Newly available The Navigation "
+      }
+    },
+    {
+      "status": "success",
+      "url": "https://web.dev/html",
+      "title": "HTML  |  web.dev",
+      "fileName": "html.html",
+      "filePath": "C:\\Users\\muafa\\Documents\\laidback\\projects\\cmlabs-backend-crawler-freelance-test\\storage\\html\\web_dev\\html.html",
+      "renderTimeMs": 3784,
+      "depth": 1,
+      "discoveredLinksCount": 60,
+      "seo": {
+        "description": "",
+        "robots": "",
+        "canonical": "https://web.dev/html",
+        "hreflangs": [
+          {
+            "hreflang": "en",
+            "href": "https://web.dev/html"
+          },
+          {
+            "hreflang": "x-default",
+            "href": "https://web.dev/html"
+          },
+          {
+            "hreflang": "ar",
+            "href": "https://web.dev/html?hl=ar"
+          },
+          {
+            "hreflang": "bn",
+            "href": "https://web.dev/html?hl=bn"
+          },
+          {
+            "hreflang": "zh-Hans",
+            "href": "https://web.dev/html?hl=zh-cn"
+          },
+          {
+            "hreflang": "zh-Hant",
+            "href": "https://web.dev/html?hl=zh-tw"
+          },
+          {
+            "hreflang": "fa",
+            "href": "https://web.dev/html?hl=fa"
+          },
+          {
+            "hreflang": "fr",
+            "href": "https://web.dev/html?hl=fr"
+          },
+          {
+            "hreflang": "de",
+            "href": "https://web.dev/html?hl=de"
+          },
+          {
+            "hreflang": "he",
+            "href": "https://web.dev/html?hl=he"
+          },
+          {
+            "hreflang": "hi",
+            "href": "https://web.dev/html?hl=hi"
+          },
+          {
+            "hreflang": "id",
+            "href": "https://web.dev/html?hl=id"
+          },
+          {
+            "hreflang": "it",
+            "href": "https://web.dev/html?hl=it"
+          },
+          {
+            "hreflang": "ja",
+            "href": "https://web.dev/html?hl=ja"
+          },
+          {
+            "hreflang": "ko",
+            "href": "https://web.dev/html?hl=ko"
+          },
+          {
+            "hreflang": "pl",
+            "href": "https://web.dev/html?hl=pl"
+          },
+          {
+            "hreflang": "pt-BR",
+            "href": "https://web.dev/html?hl=pt-br"
+          },
+          {
+            "hreflang": "ru",
+            "href": "https://web.dev/html?hl=ru"
+          },
+          {
+            "hreflang": "es-419",
+            "href": "https://web.dev/html?hl=es-419"
+          },
+          {
+            "hreflang": "th",
+            "href": "https://web.dev/html?hl=th"
+          },
+          {
+            "hreflang": "tr",
+            "href": "https://web.dev/html?hl=tr"
+          },
+          {
+            "hreflang": "vi",
+            "href": "https://web.dev/html?hl=vi"
+          },
+          {
+            "hreflang": "en-cn",
+            "href": "https://web.developers.google.cn/html"
+          },
+          {
+            "hreflang": "x-default",
+            "href": "https://web.developers.google.cn/html"
+          },
+          {
+            "hreflang": "ar-cn",
+            "href": "https://web.developers.google.cn/html?hl=ar"
+          },
+          {
+            "hreflang": "bn-cn",
+            "href": "https://web.developers.google.cn/html?hl=bn"
+          },
+          {
+            "hreflang": "zh-Hans-cn",
+            "href": "https://web.developers.google.cn/html?hl=zh-cn"
+          },
+          {
+            "hreflang": "zh-Hant-cn",
+            "href": "https://web.developers.google.cn/html?hl=zh-tw"
+          },
+          {
+            "hreflang": "fa-cn",
+            "href": "https://web.developers.google.cn/html?hl=fa"
+          },
+          {
+            "hreflang": "fr-cn",
+            "href": "https://web.developers.google.cn/html?hl=fr"
+          },
+          {
+            "hreflang": "de-cn",
+            "href": "https://web.developers.google.cn/html?hl=de"
+          },
+          {
+            "hreflang": "he-cn",
+            "href": "https://web.developers.google.cn/html?hl=he"
+          },
+          {
+            "hreflang": "hi-cn",
+            "href": "https://web.developers.google.cn/html?hl=hi"
+          },
+          {
+            "hreflang": "id-cn",
+            "href": "https://web.developers.google.cn/html?hl=id"
+          },
+          {
+            "hreflang": "it-cn",
+            "href": "https://web.developers.google.cn/html?hl=it"
+          },
+          {
+            "hreflang": "ja-cn",
+            "href": "https://web.developers.google.cn/html?hl=ja"
+          },
+          {
+            "hreflang": "ko-cn",
+            "href": "https://web.developers.google.cn/html?hl=ko"
+          },
+          {
+            "hreflang": "pl-cn",
+            "href": "https://web.developers.google.cn/html?hl=pl"
+          },
+          {
+            "hreflang": "pt-BR-cn",
+            "href": "https://web.developers.google.cn/html?hl=pt-br"
+          },
+          {
+            "hreflang": "ru-cn",
+            "href": "https://web.developers.google.cn/html?hl=ru"
+          },
+          {
+            "hreflang": "es-419-cn",
+            "href": "https://web.developers.google.cn/html?hl=es-419"
+          },
+          {
+            "hreflang": "th-cn",
+            "href": "https://web.developers.google.cn/html?hl=th"
+          },
+          {
+            "hreflang": "tr-cn",
+            "href": "https://web.developers.google.cn/html?hl=tr"
+          },
+          {
+            "hreflang": "vi-cn",
+            "href": "https://web.developers.google.cn/html?hl=vi"
+          }
+        ],
+        "openGraph": {
+          "title": "HTML  |  web.dev",
+          "description": "",
+          "url": "https://web.dev/html",
+          "image": "https://web.dev/static/images/social-wide.jpg",
+          "type": "website"
+        },
+        "twitter": {
+          "card": "summary",
+          "title": "",
+          "description": "",
+          "image": "https://web.dev/static/images/social-wide.jpg"
+        },
+        "headings": {
+          "h1": [],
+          "h2": [],
+          "h3": [
+            "HTML",
+            "Jump ahead on this page:",
+            "Learn HTML",
+            "More courses",
+            "Baseline Newly available features in HTML",
+            "HTML and accessibility",
+            "HTML and performance",
+            "Debug HTML and the DOM with Chrome DevTools",
+            "New to HTML?",
+            "Check out more courses.",
+            "Forms",
+            "Images",
+            "Accessibility",
+            "Baseline Newly available HTML features",
+            "Exclusive accordions",
+            "Declarative Shadow DOM",
+            "The Popover API",
+            "The inert attribute",
+            "Lazy-load offscreen iframes",
+            "HTML and accessibility",
+            "Headings and landmarks",
+            "Use semantic HTML for easy keyboard wins",
+            "Keyboard access fundamentals",
+            "Labels and text alternatives",
+            "HTML and performance",
+            "Don't fight the browser preload scanner",
+            "Optimize resource loading with the Fetch Priority API",
+            "Preload critical assets to improve loading speed",
+            "Browser-level image lazy loading for the web",
+            "Debug HTML and the DOM with Chrome DevTools",
+            "Get started with viewing and changing the DOM",
+            "Listen for DOM changes",
+            "Find unused code loaded by your web application's HTML",
+            "web.dev",
+            "web.dev",
+            "Contribute",
+            "Related Content",
+            "Follow"
+          ]
+        },
+        "internalLinks": [
+          {
+            "url": "https://web.dev/html",
+            "text": "Skip to main content",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "HTML",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "CSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/javascript",
+            "text": "JavaScript",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/performance",
+            "text": "Performance",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/accessibility",
+            "text": "Accessibility",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/identity",
+            "text": "Identity",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/html",
+            "text": "Learn HTML",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/css",
+            "text": "Learn CSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/javascript",
+            "text": "Learn JavaScript",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/ai",
+            "text": "Learn AI",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/performance",
+            "text": "Learn Performance",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/accessibility",
+            "text": "Learn Accessibility",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn",
+            "text": "More courses",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore/ai",
+            "text": "AI and the web",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore",
+            "text": "Explore",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/patterns",
+            "text": "Patterns",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/shows",
+            "text": "Podcasts & shows",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/newsletter",
+            "text": "Developer Newsletter",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/about",
+            "text": "About web.dev",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/baseline",
+            "text": "Baseline",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/how-to-use-baseline",
+            "text": "How to use Baseline",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog",
+            "text": "Blog",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/case-studies",
+            "text": "Case Studies",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "English",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=de",
+            "text": "Deutsch",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=es-419",
+            "text": "Español – América Latina",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=fr",
+            "text": "Français",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=id",
+            "text": "Indonesia",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=it",
+            "text": "Italiano",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=pl",
+            "text": "Polski",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=pt-br",
+            "text": "Português – Brasil",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=vi",
+            "text": "Tiếng Việt",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=tr",
+            "text": "Türkçe",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=ru",
+            "text": "Русский",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=he",
+            "text": "עברית",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=ar",
+            "text": "العربيّة",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=fa",
+            "text": "فارسی",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=hi",
+            "text": "हिंदी",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=bn",
+            "text": "বাংলা",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=th",
+            "text": "ภาษาไทย",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=zh-cn",
+            "text": "中文 – 简体",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=zh-tw",
+            "text": "中文 – 繁體",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=ja",
+            "text": "日本語",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=ko",
+            "text": "한국어",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/_d/signin?continue=https%3A%2F%2Fweb.dev%2Fhtml&prompt=select_account",
+            "text": "Sign in",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/baseline",
+            "text": "Baseline",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/how-to-use-baseline",
+            "text": "How to use Baseline",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog",
+            "text": "Blog",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/case-studies",
+            "text": "Case Studies",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "HTML",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "CSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/javascript",
+            "text": "JavaScript",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/performance",
+            "text": "Performance",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/accessibility",
+            "text": "Accessibility",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/identity",
+            "text": "Identity",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/html",
+            "text": "Learn HTML",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/css",
+            "text": "Learn CSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/javascript",
+            "text": "Learn JavaScript",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/ai",
+            "text": "Learn AI",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/performance",
+            "text": "Learn Performance",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/accessibility",
+            "text": "Learn Accessibility",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn",
+            "text": "More courses",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore/ai",
+            "text": "AI and the web",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore",
+            "text": "Explore",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/patterns",
+            "text": "Patterns",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/shows",
+            "text": "Podcasts &amp; shows",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/newsletter",
+            "text": "Developer Newsletter",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/about",
+            "text": "About web.dev",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/",
+            "text": "web.dev",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "code",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "Learn HTML",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "school",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "More courses",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "Baseline Newly available features in HTML",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "accessibility",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "HTML and accessibility",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "bolt",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "HTML and performance",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "build",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "Debug HTML and the DOM with Chrome DevTools",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/html",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/html",
+            "text": "New to HTML?",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/html",
+            "text": "Learn HTML",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/html",
+            "text": "Learn HTML!",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/forms",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/forms",
+            "text": "Forms",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/forms",
+            "text": "Learn Forms!",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/images",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/images",
+            "text": "Images",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/images",
+            "text": "Learn Images!",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/accessibility",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/accessibility",
+            "text": "Accessibility",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/accessibility",
+            "text": "Learn Accessibility!",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/baseline",
+            "text": "Baseline",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/declarative-shadow-dom",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/declarative-shadow-dom",
+            "text": "Declarative Shadow DOM",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog/popover-api",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog/popover-api",
+            "text": "The Popover API",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/inert",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/inert",
+            "text": "The inert attribute",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/iframe-lazy-loading",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/iframe-lazy-loading",
+            "text": "Lazy-load offscreen iframes",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/headings-and-landmarks",
+            "text": "article",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/headings-and-landmarks",
+            "text": "Headings and landmarks",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/headings-and-landmarks",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/use-semantic-html",
+            "text": "article",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/use-semantic-html",
+            "text": "Use semantic HTML for easy keyboard wins",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/use-semantic-html",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/keyboard-access",
+            "text": "article",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/keyboard-access",
+            "text": "Keyboard access fundamentals",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/keyboard-access",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/labels-and-text-alternatives",
+            "text": "article",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/labels-and-text-alternatives",
+            "text": "Labels and text alternatives",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/labels-and-text-alternatives",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/preload-scanner",
+            "text": "article",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/preload-scanner",
+            "text": "Don't fight the browser preload scanner",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/preload-scanner",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/fetch-priority",
+            "text": "article",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/fetch-priority",
+            "text": "Optimize resource loading with the Fetch Priority API",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/vitals",
+            "text": "Core Web Vitals",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/fetch-priority",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/preload-critical-assets",
+            "text": "article",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/preload-critical-assets",
+            "text": "Preload critical assets to improve loading speed",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/preload-critical-assets",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/browser-level-image-lazy-loading",
+            "text": "article",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/browser-level-image-lazy-loading",
+            "text": "Browser-level image lazy loading for the web",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/browser-level-image-lazy-loading",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/case-studies",
+            "text": "Case studies",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/shows",
+            "text": "Podcasts & shows",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/static/blog/feed.xml",
+            "text": "RSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "Manage cookies",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "English",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=de",
+            "text": "Deutsch",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=es-419",
+            "text": "Español – América Latina",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=fr",
+            "text": "Français",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=id",
+            "text": "Indonesia",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=it",
+            "text": "Italiano",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=pl",
+            "text": "Polski",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=pt-br",
+            "text": "Português – Brasil",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=vi",
+            "text": "Tiếng Việt",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=tr",
+            "text": "Türkçe",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=ru",
+            "text": "Русский",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=he",
+            "text": "עברית",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=ar",
+            "text": "العربيّة",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=fa",
+            "text": "فارسی",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=hi",
+            "text": "हिंदी",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=bn",
+            "text": "বাংলা",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=th",
+            "text": "ภาษาไทย",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=zh-cn",
+            "text": "中文 – 简体",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=zh-tw",
+            "text": "中文 – 繁體",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=ja",
+            "text": "日本語",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html?hl=ko",
+            "text": "한국어",
+            "type": "internal"
+          }
+        ],
+        "externalLinks": [
+          {
+            "url": "https://pagespeed.web.dev/",
+            "text": "PageSpeed Insights",
+            "type": "external"
+          },
+          {
+            "url": "https://pagespeed.web.dev/",
+            "text": "PageSpeed Insights",
+            "type": "external"
+          },
+          {
+            "url": "https://io.google/2026",
+            "text": "Register now",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.chrome.com/docs/css-ui/exclusive-accordion",
+            "text": "",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.chrome.com/docs/css-ui/exclusive-accordion",
+            "text": "Exclusive accordions",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.chrome.com/docs/devtools",
+            "text": "Chrome DevTools",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.chrome.com/docs/devtools/dom",
+            "text": "code",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.chrome.com/docs/devtools/dom",
+            "text": "Get started with viewing and changing the DOM",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.chrome.com/docs/devtools/dom",
+            "text": "Learn more",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.chrome.com/docs/devtools/javascript/breakpoints",
+            "text": "code",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.chrome.com/docs/devtools/javascript/breakpoints",
+            "text": "Listen for DOM changes",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.chrome.com/docs/devtools/javascript/breakpoints",
+            "text": "Learn more",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.chrome.com/docs/devtools/coverage",
+            "text": "code",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.chrome.com/docs/devtools/coverage",
+            "text": "Find unused code loaded by your web application's HTML",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.chrome.com/docs/devtools/coverage",
+            "text": "Learn more",
+            "type": "external"
+          },
+          {
+            "url": "https://issuetracker.google.com/issues/new?component=1400680&template=1857359",
+            "text": "File a bug",
+            "type": "external"
+          },
+          {
+            "url": "https://issuetracker.google.com/issues?q=status%3Aopen+componentid%3A1400680&s=created_time%3Adesc",
+            "text": "See open issues",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.chrome.com/",
+            "text": "Chrome for Developers",
+            "type": "external"
+          },
+          {
+            "url": "https://blog.chromium.org/",
+            "text": "Chromium updates",
+            "type": "external"
+          },
+          {
+            "url": "https://twitter.com/ChromiumDev",
+            "text": "@ChromiumDev on X",
+            "type": "external"
+          },
+          {
+            "url": "https://www.youtube.com/user/ChromeDevelopers",
+            "text": "YouTube",
+            "type": "external"
+          },
+          {
+            "url": "https://www.linkedin.com/showcase/chrome-for-developers",
+            "text": "Chrome for Developers on LinkedIn",
+            "type": "external"
+          },
+          {
+            "url": "https://policies.google.com/terms",
+            "text": "Terms",
+            "type": "external"
+          },
+          {
+            "url": "https://policies.google.com/privacy",
+            "text": "Privacy",
+            "type": "external"
+          }
+        ],
+        "textSnippet": "Chrome is back at Google I/O May 19-20! Register now web.dev HTML HTML is the document layer of the web, providing the structure and content necessary for web pages to be meaningful. Here, you can find content for HTML such as courses, articles, collections, and other useful bits of information to help you build your knowledge of this crucial part of the web. Jump ahead on this page: code Learn HTML New to HTML? We've got you covered with a comprehensive course to help you get started. school Mo"
+      }
+    },
+    {
+      "status": "success",
+      "url": "https://web.dev/css",
+      "title": "CSS  |  web.dev",
+      "fileName": "css.html",
+      "filePath": "C:\\Users\\muafa\\Documents\\laidback\\projects\\cmlabs-backend-crawler-freelance-test\\storage\\html\\web_dev\\css.html",
+      "renderTimeMs": 3532,
+      "depth": 1,
+      "discoveredLinksCount": 63,
+      "seo": {
+        "description": "",
+        "robots": "",
+        "canonical": "https://web.dev/css",
+        "hreflangs": [
+          {
+            "hreflang": "en",
+            "href": "https://web.dev/css"
+          },
+          {
+            "hreflang": "x-default",
+            "href": "https://web.dev/css"
+          },
+          {
+            "hreflang": "ar",
+            "href": "https://web.dev/css?hl=ar"
+          },
+          {
+            "hreflang": "bn",
+            "href": "https://web.dev/css?hl=bn"
+          },
+          {
+            "hreflang": "zh-Hans",
+            "href": "https://web.dev/css?hl=zh-cn"
+          },
+          {
+            "hreflang": "zh-Hant",
+            "href": "https://web.dev/css?hl=zh-tw"
+          },
+          {
+            "hreflang": "fa",
+            "href": "https://web.dev/css?hl=fa"
+          },
+          {
+            "hreflang": "fr",
+            "href": "https://web.dev/css?hl=fr"
+          },
+          {
+            "hreflang": "de",
+            "href": "https://web.dev/css?hl=de"
+          },
+          {
+            "hreflang": "he",
+            "href": "https://web.dev/css?hl=he"
+          },
+          {
+            "hreflang": "hi",
+            "href": "https://web.dev/css?hl=hi"
+          },
+          {
+            "hreflang": "id",
+            "href": "https://web.dev/css?hl=id"
+          },
+          {
+            "hreflang": "it",
+            "href": "https://web.dev/css?hl=it"
+          },
+          {
+            "hreflang": "ja",
+            "href": "https://web.dev/css?hl=ja"
+          },
+          {
+            "hreflang": "ko",
+            "href": "https://web.dev/css?hl=ko"
+          },
+          {
+            "hreflang": "pl",
+            "href": "https://web.dev/css?hl=pl"
+          },
+          {
+            "hreflang": "pt-BR",
+            "href": "https://web.dev/css?hl=pt-br"
+          },
+          {
+            "hreflang": "ru",
+            "href": "https://web.dev/css?hl=ru"
+          },
+          {
+            "hreflang": "es-419",
+            "href": "https://web.dev/css?hl=es-419"
+          },
+          {
+            "hreflang": "th",
+            "href": "https://web.dev/css?hl=th"
+          },
+          {
+            "hreflang": "tr",
+            "href": "https://web.dev/css?hl=tr"
+          },
+          {
+            "hreflang": "vi",
+            "href": "https://web.dev/css?hl=vi"
+          },
+          {
+            "hreflang": "en-cn",
+            "href": "https://web.developers.google.cn/css"
+          },
+          {
+            "hreflang": "x-default",
+            "href": "https://web.developers.google.cn/css"
+          },
+          {
+            "hreflang": "ar-cn",
+            "href": "https://web.developers.google.cn/css?hl=ar"
+          },
+          {
+            "hreflang": "bn-cn",
+            "href": "https://web.developers.google.cn/css?hl=bn"
+          },
+          {
+            "hreflang": "zh-Hans-cn",
+            "href": "https://web.developers.google.cn/css?hl=zh-cn"
+          },
+          {
+            "hreflang": "zh-Hant-cn",
+            "href": "https://web.developers.google.cn/css?hl=zh-tw"
+          },
+          {
+            "hreflang": "fa-cn",
+            "href": "https://web.developers.google.cn/css?hl=fa"
+          },
+          {
+            "hreflang": "fr-cn",
+            "href": "https://web.developers.google.cn/css?hl=fr"
+          },
+          {
+            "hreflang": "de-cn",
+            "href": "https://web.developers.google.cn/css?hl=de"
+          },
+          {
+            "hreflang": "he-cn",
+            "href": "https://web.developers.google.cn/css?hl=he"
+          },
+          {
+            "hreflang": "hi-cn",
+            "href": "https://web.developers.google.cn/css?hl=hi"
+          },
+          {
+            "hreflang": "id-cn",
+            "href": "https://web.developers.google.cn/css?hl=id"
+          },
+          {
+            "hreflang": "it-cn",
+            "href": "https://web.developers.google.cn/css?hl=it"
+          },
+          {
+            "hreflang": "ja-cn",
+            "href": "https://web.developers.google.cn/css?hl=ja"
+          },
+          {
+            "hreflang": "ko-cn",
+            "href": "https://web.developers.google.cn/css?hl=ko"
+          },
+          {
+            "hreflang": "pl-cn",
+            "href": "https://web.developers.google.cn/css?hl=pl"
+          },
+          {
+            "hreflang": "pt-BR-cn",
+            "href": "https://web.developers.google.cn/css?hl=pt-br"
+          },
+          {
+            "hreflang": "ru-cn",
+            "href": "https://web.developers.google.cn/css?hl=ru"
+          },
+          {
+            "hreflang": "es-419-cn",
+            "href": "https://web.developers.google.cn/css?hl=es-419"
+          },
+          {
+            "hreflang": "th-cn",
+            "href": "https://web.developers.google.cn/css?hl=th"
+          },
+          {
+            "hreflang": "tr-cn",
+            "href": "https://web.developers.google.cn/css?hl=tr"
+          },
+          {
+            "hreflang": "vi-cn",
+            "href": "https://web.developers.google.cn/css?hl=vi"
+          }
+        ],
+        "openGraph": {
+          "title": "CSS  |  web.dev",
+          "description": "",
+          "url": "https://web.dev/css",
+          "image": "https://web.dev/static/images/social-wide.jpg",
+          "type": "website"
+        },
+        "twitter": {
+          "card": "summary",
+          "title": "",
+          "description": "",
+          "image": "https://web.dev/static/images/social-wide.jpg"
+        },
+        "headings": {
+          "h1": [],
+          "h2": [],
+          "h3": [
+            "CSS",
+            "Jump ahead on this page:",
+            "Learn CSS",
+            "The latest in CSS and UI design",
+            "Baseline Newly available features in CSS",
+            "Dive into CSS patterns",
+            "CSS and performance",
+            "CSS and accessibility",
+            "The CSS Podcast",
+            "New to CSS?",
+            "The latest in CSS and UI design",
+            "Adapting typography to user preference using CSS",
+            "New CSS color spaces and functions in all major engines",
+            "What are source maps?",
+            "CSS subgrid",
+            "Baseline Newly available CSS features",
+            "scrollbar-gutter",
+            "::target-text",
+            "ruby-align",
+            "ruby-position",
+            "Relative color syntax",
+            "content-visibility",
+            "CSS @starting-style",
+            "font-size-adjust",
+            "CSS @property",
+            "light-dark()",
+            "align-content",
+            "CSS offset-position and offset-path properties",
+            "GUI Challenges",
+            "CSS and performance",
+            "Reduce the scope and complexity of style calculations",
+            "content-visibility: A CSS property that boosts rendering performance",
+            "CSS for Web Vitals",
+            "How large DOM sizes affect interactivity, and what you can do about it",
+            "CSS and accessibility",
+            "Accessible tap targets",
+            "Color and contrast accessibility",
+            "Accessible responsive design",
+            "Content reordering",
+            "The CSS Podcast",
+            "web.dev",
+            "web.dev",
+            "Contribute",
+            "Related Content",
+            "Follow"
+          ]
+        },
+        "internalLinks": [
+          {
+            "url": "https://web.dev/css",
+            "text": "Skip to main content",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "HTML",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "CSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/javascript",
+            "text": "JavaScript",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/performance",
+            "text": "Performance",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/accessibility",
+            "text": "Accessibility",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/identity",
+            "text": "Identity",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/html",
+            "text": "Learn HTML",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/css",
+            "text": "Learn CSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/javascript",
+            "text": "Learn JavaScript",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/ai",
+            "text": "Learn AI",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/performance",
+            "text": "Learn Performance",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/accessibility",
+            "text": "Learn Accessibility",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn",
+            "text": "More courses",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore/ai",
+            "text": "AI and the web",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore",
+            "text": "Explore",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/patterns",
+            "text": "Patterns",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/shows",
+            "text": "Podcasts & shows",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/newsletter",
+            "text": "Developer Newsletter",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/about",
+            "text": "About web.dev",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/baseline",
+            "text": "Baseline",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/how-to-use-baseline",
+            "text": "How to use Baseline",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog",
+            "text": "Blog",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/case-studies",
+            "text": "Case Studies",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "English",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=de",
+            "text": "Deutsch",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=es-419",
+            "text": "Español – América Latina",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=fr",
+            "text": "Français",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=id",
+            "text": "Indonesia",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=it",
+            "text": "Italiano",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=pl",
+            "text": "Polski",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=pt-br",
+            "text": "Português – Brasil",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=vi",
+            "text": "Tiếng Việt",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=tr",
+            "text": "Türkçe",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=ru",
+            "text": "Русский",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=he",
+            "text": "עברית",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=ar",
+            "text": "العربيّة",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=fa",
+            "text": "فارسی",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=hi",
+            "text": "हिंदी",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=bn",
+            "text": "বাংলা",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=th",
+            "text": "ภาษาไทย",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=zh-cn",
+            "text": "中文 – 简体",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=zh-tw",
+            "text": "中文 – 繁體",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=ja",
+            "text": "日本語",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=ko",
+            "text": "한국어",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/_d/signin?continue=https%3A%2F%2Fweb.dev%2Fcss&prompt=select_account",
+            "text": "Sign in",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/baseline",
+            "text": "Baseline",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/how-to-use-baseline",
+            "text": "How to use Baseline",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog",
+            "text": "Blog",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/case-studies",
+            "text": "Case Studies",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/html",
+            "text": "HTML",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "CSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/javascript",
+            "text": "JavaScript",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/performance",
+            "text": "Performance",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/accessibility",
+            "text": "Accessibility",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/identity",
+            "text": "Identity",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/html",
+            "text": "Learn HTML",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/css",
+            "text": "Learn CSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/javascript",
+            "text": "Learn JavaScript",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/ai",
+            "text": "Learn AI",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/performance",
+            "text": "Learn Performance",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/accessibility",
+            "text": "Learn Accessibility",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn",
+            "text": "More courses",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore/ai",
+            "text": "AI and the web",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/explore",
+            "text": "Explore",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/patterns",
+            "text": "Patterns",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/shows",
+            "text": "Podcasts &amp; shows",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/newsletter",
+            "text": "Developer Newsletter",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/about",
+            "text": "About web.dev",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/",
+            "text": "web.dev",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "code",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "Learn CSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "newspaper",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "The latest in CSS and UI design",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "Baseline Newly available features in CSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "code",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "Dive into CSS patterns",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "bolt",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "CSS and performance",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "accessibility",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "CSS and accessibility",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "podcasts",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "The CSS Podcast",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/css",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/css",
+            "text": "New to CSS?",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/css",
+            "text": "Learn CSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/learn/css",
+            "text": "Learn CSS!",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/adapting-typography-to-user-preferences-with-css",
+            "text": "article",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/adapting-typography-to-user-preferences-with-css",
+            "text": "Adapting typography to user preference using CSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/adapting-typography-to-user-preferences-with-css",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog/color-spaces-and-functions",
+            "text": "article",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog/color-spaces-and-functions",
+            "text": "New CSS color spaces and functions in all major engines",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog/color-spaces-and-functions",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/source-maps",
+            "text": "article",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/source-maps",
+            "text": "What are source maps?",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/source-maps",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/css-subgrid",
+            "text": "article",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/css-subgrid",
+            "text": "CSS subgrid",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/css-subgrid",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/baseline",
+            "text": "Baseline",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog/font-size-adjust",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog/font-size-adjust",
+            "text": "font-size-adjust",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog/at-property-baseline",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog/at-property-baseline",
+            "text": "CSS @property",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/light-dark",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/light-dark",
+            "text": "light-dark()",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog/align-content-block",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/blog/align-content-block",
+            "text": "align-content",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/shows/gui-challenges",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/shows/gui-challenges",
+            "text": "GUI Challenges",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/shows/gui-challenges",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/reduce-the-scope-and-complexity-of-style-calculations",
+            "text": "article",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/reduce-the-scope-and-complexity-of-style-calculations",
+            "text": "Reduce the scope and complexity of style calculations",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/reduce-the-scope-and-complexity-of-style-calculations",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/content-visibility",
+            "text": "article",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/content-visibility",
+            "text": "content-visibility: A CSS property that boosts rendering performance",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/content-visibility",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/css-web-vitals",
+            "text": "article",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/css-web-vitals",
+            "text": "CSS for Web Vitals",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/vitals",
+            "text": "Core Web Vitals",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/css-web-vitals",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/dom-size-and-interactivity",
+            "text": "article",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/dom-size-and-interactivity",
+            "text": "How large DOM sizes affect interactivity, and what you can do about it",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/dom-size-and-interactivity",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/accessible-tap-targets",
+            "text": "article",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/accessible-tap-targets",
+            "text": "Accessible tap targets",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/accessible-tap-targets",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/color-and-contrast-accessibility",
+            "text": "article",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/color-and-contrast-accessibility",
+            "text": "Color and contrast accessibility",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/color-and-contrast-accessibility",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/accessible-responsive-design",
+            "text": "article",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/accessible-responsive-design",
+            "text": "Accessible responsive design",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/accessible-responsive-design",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/content-reordering",
+            "text": "article",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/content-reordering",
+            "text": "Content reordering",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/articles/content-reordering",
+            "text": "Learn more",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/case-studies",
+            "text": "Case studies",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/shows",
+            "text": "Podcasts & shows",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/static/blog/feed.xml",
+            "text": "RSS",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "Manage cookies",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css",
+            "text": "English",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=de",
+            "text": "Deutsch",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=es-419",
+            "text": "Español – América Latina",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=fr",
+            "text": "Français",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=id",
+            "text": "Indonesia",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=it",
+            "text": "Italiano",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=pl",
+            "text": "Polski",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=pt-br",
+            "text": "Português – Brasil",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=vi",
+            "text": "Tiếng Việt",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=tr",
+            "text": "Türkçe",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=ru",
+            "text": "Русский",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=he",
+            "text": "עברית",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=ar",
+            "text": "العربيّة",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=fa",
+            "text": "فارسی",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=hi",
+            "text": "हिंदी",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=bn",
+            "text": "বাংলা",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=th",
+            "text": "ภาษาไทย",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=zh-cn",
+            "text": "中文 – 简体",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=zh-tw",
+            "text": "中文 – 繁體",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=ja",
+            "text": "日本語",
+            "type": "internal"
+          },
+          {
+            "url": "https://web.dev/css?hl=ko",
+            "text": "한국어",
+            "type": "internal"
+          }
+        ],
+        "externalLinks": [
+          {
+            "url": "https://pagespeed.web.dev/",
+            "text": "PageSpeed Insights",
+            "type": "external"
+          },
+          {
+            "url": "https://pagespeed.web.dev/",
+            "text": "PageSpeed Insights",
+            "type": "external"
+          },
+          {
+            "url": "https://io.google/2026",
+            "text": "Register now",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-gutter",
+            "text": "",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-gutter",
+            "text": "scrollbar-gutter",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.mozilla.org/docs/Web/CSS/::target-text",
+            "text": "",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.mozilla.org/docs/Web/CSS/::target-text",
+            "text": "::target-text",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.mozilla.org/docs/Web/CSS/ruby-align",
+            "text": "",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.mozilla.org/docs/Web/CSS/ruby-align",
+            "text": "ruby-align",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.mozilla.org/docs/Web/CSS/ruby-position",
+            "text": "",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.mozilla.org/docs/Web/CSS/ruby-position",
+            "text": "ruby-position",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.chrome.com/blog/css-relative-color-syntax",
+            "text": "",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.chrome.com/blog/css-relative-color-syntax",
+            "text": "Relative color syntax",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.mozilla.org/docs/Web/CSS/content-visibility",
+            "text": "",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.mozilla.org/docs/Web/CSS/content-visibility",
+            "text": "content-visibility",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.mozilla.org/docs/Web/CSS/@starting-style",
+            "text": "",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.mozilla.org/docs/Web/CSS/@starting-style",
+            "text": "CSS @starting-style",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.mozilla.org/docs/Web/CSS/offset-position",
+            "text": "",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.mozilla.org/docs/Web/CSS/offset-position",
+            "text": "CSS offset-position and offset-path properties",
+            "type": "external"
+          },
+          {
+            "url": "https://pod.link/thecsspodcast",
+            "text": "",
+            "type": "external"
+          },
+          {
+            "url": "https://pod.link/thecsspodcast",
+            "text": "The CSS Podcast",
+            "type": "external"
+          },
+          {
+            "url": "https://pod.link/thecsspodcast",
+            "text": "Listen now!",
+            "type": "external"
+          },
+          {
+            "url": "https://issuetracker.google.com/issues/new?component=1400680&template=1857359",
+            "text": "File a bug",
+            "type": "external"
+          },
+          {
+            "url": "https://issuetracker.google.com/issues?q=status%3Aopen+componentid%3A1400680&s=created_time%3Adesc",
+            "text": "See open issues",
+            "type": "external"
+          },
+          {
+            "url": "https://developer.chrome.com/",
+            "text": "Chrome for Developers",
+            "type": "external"
+          },
+          {
+            "url": "https://blog.chromium.org/",
+            "text": "Chromium updates",
+            "type": "external"
+          },
+          {
+            "url": "https://twitter.com/ChromiumDev",
+            "text": "@ChromiumDev on X",
+            "type": "external"
+          },
+          {
+            "url": "https://www.youtube.com/user/ChromeDevelopers",
+            "text": "YouTube",
+            "type": "external"
+          },
+          {
+            "url": "https://www.linkedin.com/showcase/chrome-for-developers",
+            "text": "Chrome for Developers on LinkedIn",
+            "type": "external"
+          },
+          {
+            "url": "https://policies.google.com/terms",
+            "text": "Terms",
+            "type": "external"
+          },
+          {
+            "url": "https://policies.google.com/privacy",
+            "text": "Privacy",
+            "type": "external"
+          }
+        ],
+        "textSnippet": "Chrome is back at Google I/O May 19-20! Register now web.dev CSS CSS is the presentation layer of the web. It allows you to style HTML to help you achieve the design goals you have in mind for your website. Here, you can find a variety of collections of content, courses, patterns, and links to other helpful articles to guide you in your journey to learn and use CSS to make your web pages look just like you envisioned them! Jump ahead on this page: code Learn CSS If you're new to CSS, we've got y"
+      }
+    }
+  ]
+}

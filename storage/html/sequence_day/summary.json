@@ -1,0 +1,916 @@
+{
+  "status": "success",
+  "startUrl": "https://sequence.day/",
+  "outputDir": "C:\\Users\\muafa\\Documents\\laidback\\projects\\cmlabs-backend-crawler-freelance-test\\storage\\html\\sequence_day",
+  "totalCrawled": 3,
+  "pages": [
+    {
+      "status": "success",
+      "url": "https://sequence.day/",
+      "title": "Comprehensive Digital Solutions for Your Business | Sequence",
+      "fileName": "index.html",
+      "filePath": "C:\\Users\\muafa\\Documents\\laidback\\projects\\cmlabs-backend-crawler-freelance-test\\storage\\html\\sequence_day\\index.html",
+      "renderTimeMs": 2489,
+      "depth": 0,
+      "discoveredLinksCount": 24,
+      "seo": {
+        "description": "Get customized, high-quality technology solutions supported by a team of experts. Digital transformation of your business with Sequence.",
+        "robots": "index, follow",
+        "canonical": "https://www.sequence.day",
+        "hreflangs": [],
+        "openGraph": {
+          "title": "Comprehensive Digital Solutions for Your Business | Sequence",
+          "description": "Get customized, high-quality technology solutions supported by a team of experts. Digital transformation of your business with Sequence.",
+          "url": "",
+          "image": "https://www.sequence.day/assets/sequence-main-banner.png",
+          "type": ""
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Comprehensive Digital Solutions for Your Business | Sequence",
+          "description": "Get customized, high-quality technology solutions supported by a team of experts. Digital transformation of your business with Sequence.",
+          "image": "https://www.sequence.day/assets/sequence-main-banner.png"
+        },
+        "headings": {
+          "h1": [
+            "Tech Solutions to Elevate Your Business"
+          ],
+          "h2": [
+            "Elevate Your Business by Leveraging Our Solutions and Products",
+            "Sequence Tech Solutions",
+            "Sequence Products & Tools",
+            "Get Offers from Our Ecosystem"
+          ],
+          "h3": [
+            "Solutions",
+            "Products",
+            "All-in-One Solutions",
+            "End to End Products Expertise",
+            "SEO Assistant",
+            "Web App Development",
+            "Website Development",
+            "Mobile App Development",
+            "Landing Page Development",
+            "UI/UX Design",
+            "Desktop App Development",
+            "CMS Development",
+            "SEO Project Management",
+            "Keyword Rank Tracker",
+            "Competitive Landscape",
+            "Keyword Discovery",
+            "Site Audit",
+            "Search Stats Analytics"
+          ]
+        },
+        "internalLinks": [
+          {
+            "url": "https://sequence.day/",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs",
+            "text": "Blogs",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/products/stat/pricing",
+            "text": "Pricing",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/contact-us",
+            "text": "Contact Us",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/",
+            "text": "Go back to home",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs",
+            "text": "Blogs",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/contact-us",
+            "text": "Contact Us",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/contact-us",
+            "text": "Contact Us Now",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/solutions/software-development/web-app-development",
+            "text": "Learn More",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/solutions/software-development/website-development",
+            "text": "Learn More",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/solutions/software-development/mobile-development",
+            "text": "Learn More",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/solutions/software-development/landing-page-development",
+            "text": "Learn More",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/solutions/software-development/uiux-design",
+            "text": "Learn More",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/solutions/software-development/desktop-development",
+            "text": "Learn More",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/solutions/software-development/cms-development",
+            "text": "Learn More",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/products/stat/seo-project",
+            "text": "Learn More",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/products/stat/keyword-rank-tracker",
+            "text": "Learn More",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/products/stat/competitive-landscape",
+            "text": "Learn More",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/products/stat/keyword-discovery",
+            "text": "Learn More",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/products/stat/site-audit",
+            "text": "Learn More",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/products/stat/search-stats",
+            "text": "Learn More",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/contact-us",
+            "text": "Get Quote Now",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/solutions/software-development",
+            "text": "Software Development",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/solutions/technical-consultancies",
+            "text": "Technical Consultancies",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/solutions/technical-consultancies",
+            "text": "SEO Supports",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/solutions/quality-control-and-maintenance",
+            "text": "Quality Control",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/products/stat",
+            "text": "STAT by Sequence",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/about",
+            "text": "About Us",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/contact-us",
+            "text": "Contact Us",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs",
+            "text": "Blog",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/contact-us",
+            "text": "WE ARE HIRING!",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/terms-and-conditions",
+            "text": "Terms and Conditions",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/privacy-policy",
+            "text": "Privacy Policy",
+            "type": "internal"
+          }
+        ],
+        "externalLinks": [
+          {
+            "url": "https://app.sequence.day/auth/login",
+            "text": "Login",
+            "type": "external"
+          },
+          {
+            "url": "https://app.sequence.day/",
+            "text": "Start Now",
+            "type": "external"
+          },
+          {
+            "url": "mailto:support@sequence.day",
+            "text": "support@sequence.day",
+            "type": "external"
+          },
+          {
+            "url": "https://twitter.com/sequencestats",
+            "text": "",
+            "type": "external"
+          },
+          {
+            "url": "https://id.linkedin.com/company/sequence-stats",
+            "text": "",
+            "type": "external"
+          },
+          {
+            "url": "https://instagram.com/sequence.stats",
+            "text": "",
+            "type": "external"
+          },
+          {
+            "url": "https://tools.sequence.day/keyword-research",
+            "text": "Keyword Research",
+            "type": "external"
+          },
+          {
+            "url": "https://tools.sequence.day/most-popular-indonesia-online-publisher",
+            "text": "Most Popular Indonesia Online Publisher",
+            "type": "external"
+          },
+          {
+            "url": "https://tools.sequence.day/people-and-brand-mention",
+            "text": "Person & Brand Mention on Online Publisher",
+            "type": "external"
+          },
+          {
+            "url": "https://tools.sequence.day/indonesia-online-publisher-sentiments",
+            "text": "Sentiment Analysis",
+            "type": "external"
+          },
+          {
+            "url": "https://tools.sequence.day/site-explorer",
+            "text": "Site Explorer",
+            "type": "external"
+          },
+          {
+            "url": "https://docs.sequence.day/release-logs",
+            "text": "Release Logs",
+            "type": "external"
+          },
+          {
+            "url": "https://h058hu3c6la.typeform.com/to/yiMtu1GX",
+            "text": "Feedback fo Us :)",
+            "type": "external"
+          },
+          {
+            "url": "https://docs.sequence.day/release-logs",
+            "text": "Docs & References",
+            "type": "external"
+          }
+        ],
+        "textSnippet": "EMPOWERING TECHNOLOGY AND BUSINESS VISIONTech Solutions to Elevate Your BusinessContact Us NowPreferred by Industry LeadersShow AllElevate Your Business by Leveraging Our Solutions and ProductsTo solve the situation, to create a chance you are not seeing.All-in-One SolutionsComprehensive Solutions for All Your Digital Needs. Tired of switching from one service provider to another? With Sequence, you get everything under one roof. From software development to technical search engine optimisation "
+      }
+    },
+    {
+      "status": "success",
+      "url": "https://sequence.day/blogs",
+      "title": "Blogs | Sequence",
+      "fileName": "blogs.html",
+      "filePath": "C:\\Users\\muafa\\Documents\\laidback\\projects\\cmlabs-backend-crawler-freelance-test\\storage\\html\\sequence_day\\blogs.html",
+      "renderTimeMs": 4429,
+      "depth": 1,
+      "discoveredLinksCount": 22,
+      "seo": {
+        "description": "Sequence offers various subscription plans you can choose based on your needs. See this tool's pricing details and choose your plan on this page",
+        "robots": "index, follow",
+        "canonical": "https://www.sequence.day",
+        "hreflangs": [],
+        "openGraph": {
+          "title": "Comprehensive Digital Solutions for Your Business | Sequence",
+          "description": "Get customized, high-quality technology solutions supported by a team of experts. Digital transformation of your business with Sequence.",
+          "url": "",
+          "image": "https://www.sequence.day/assets/sequence-main-banner.png",
+          "type": ""
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Comprehensive Digital Solutions for Your Business | Sequence",
+          "description": "Get customized, high-quality technology solutions supported by a team of experts. Digital transformation of your business with Sequence.",
+          "image": "https://www.sequence.day/assets/sequence-main-banner.png"
+        },
+        "headings": {
+          "h1": [
+            "Sequence Blog"
+          ],
+          "h2": [],
+          "h3": [
+            "Solutions",
+            "Products",
+            "How To Do Multiregional and Multilingual SEO: A 2024 Guide",
+            "Content Plan Strategy and The Step-by-Step to Make One",
+            "How to Easily Remove Outdated Contents",
+            "What Is CSS Aspect Ratio? Mastering Proportional Layouts",
+            "What Is Critical CSS? A Guide to Faster Page Loads",
+            "What Is a Source Map? Here’s What You Need to Know",
+            "What Is SameSite Cookie? Definition & Best Practices",
+            "What Is a Back/Forward Cache? Secret to a Faster Load Page!",
+            "What Is Java Used For? Features and Tips for Beginners!",
+            "Service Oriented Architecture (SOA): A Complete Guide!",
+            "What Is an API? Definition, Types, Benefits, & How It Works!"
+          ]
+        },
+        "internalLinks": [
+          {
+            "url": "https://sequence.day/",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs",
+            "text": "Blogs",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/products/stat/pricing",
+            "text": "Pricing",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/contact-us",
+            "text": "Contact Us",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/",
+            "text": "Go back to home",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs",
+            "text": "Blogs",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/contact-us",
+            "text": "Contact Us",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs/managing-multiregional-website-and-keywords",
+            "text": "Read more",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs/content-plan",
+            "text": "Read more",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs/remove-outdated-content",
+            "text": "Read more",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs/css-aspect-ratio",
+            "text": "What Is CSS Aspect Ratio? Mastering Proportional Layouts",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs/css-aspect-ratio",
+            "text": "Read more",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs/critical-css",
+            "text": "What Is Critical CSS? A Guide to Faster Page Loads",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs/critical-css",
+            "text": "Read more",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs/source-map",
+            "text": "What Is a Source Map? Here’s What You Need to Know",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs/source-map",
+            "text": "Read more",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs/samesite-cookie",
+            "text": "What Is SameSite Cookie? Definition & Best Practices",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs/samesite-cookie",
+            "text": "Read more",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs/back-forward-cache",
+            "text": "What Is a Back/Forward Cache? Secret to a Faster Load Page!",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs/back-forward-cache",
+            "text": "Read more",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs/what-is-java-used-for",
+            "text": "What Is Java Used For? Features and Tips for Beginners!",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs/what-is-java-used-for",
+            "text": "Read more",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs/service-oriented-architecture",
+            "text": "Service Oriented Architecture (SOA): A Complete Guide!",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs/service-oriented-architecture",
+            "text": "Read more",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs/what-is-api",
+            "text": "What Is an API? Definition, Types, Benefits, & How It Works!",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs/what-is-api",
+            "text": "Read more",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs",
+            "text": "1",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs",
+            "text": "2",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs",
+            "text": "3",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs",
+            "text": "4",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/solutions/software-development",
+            "text": "Software Development",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/solutions/technical-consultancies",
+            "text": "Technical Consultancies",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/solutions/technical-consultancies",
+            "text": "SEO Supports",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/solutions/quality-control-and-maintenance",
+            "text": "Quality Control",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/products/stat",
+            "text": "STAT by Sequence",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/about",
+            "text": "About Us",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/contact-us",
+            "text": "Contact Us",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs",
+            "text": "Blog",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/contact-us",
+            "text": "WE ARE HIRING!",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/terms-and-conditions",
+            "text": "Terms and Conditions",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/privacy-policy",
+            "text": "Privacy Policy",
+            "type": "internal"
+          }
+        ],
+        "externalLinks": [
+          {
+            "url": "https://app.sequence.day/auth/login",
+            "text": "Login",
+            "type": "external"
+          },
+          {
+            "url": "https://app.sequence.day/",
+            "text": "Start Now",
+            "type": "external"
+          },
+          {
+            "url": "mailto:support@sequence.day",
+            "text": "support@sequence.day",
+            "type": "external"
+          },
+          {
+            "url": "https://twitter.com/sequencestats",
+            "text": "",
+            "type": "external"
+          },
+          {
+            "url": "https://id.linkedin.com/company/sequence-stats",
+            "text": "",
+            "type": "external"
+          },
+          {
+            "url": "https://instagram.com/sequence.stats",
+            "text": "",
+            "type": "external"
+          },
+          {
+            "url": "https://tools.sequence.day/keyword-research",
+            "text": "Keyword Research",
+            "type": "external"
+          },
+          {
+            "url": "https://tools.sequence.day/most-popular-indonesia-online-publisher",
+            "text": "Most Popular Indonesia Online Publisher",
+            "type": "external"
+          },
+          {
+            "url": "https://tools.sequence.day/people-and-brand-mention",
+            "text": "Person & Brand Mention on Online Publisher",
+            "type": "external"
+          },
+          {
+            "url": "https://tools.sequence.day/indonesia-online-publisher-sentiments",
+            "text": "Sentiment Analysis",
+            "type": "external"
+          },
+          {
+            "url": "https://tools.sequence.day/site-explorer",
+            "text": "Site Explorer",
+            "type": "external"
+          },
+          {
+            "url": "https://docs.sequence.day/release-logs",
+            "text": "Release Logs",
+            "type": "external"
+          },
+          {
+            "url": "https://h058hu3c6la.typeform.com/to/yiMtu1GX",
+            "text": "Feedback fo Us :)",
+            "type": "external"
+          },
+          {
+            "url": "https://docs.sequence.day/release-logs",
+            "text": "Docs & References",
+            "type": "external"
+          }
+        ],
+        "textSnippet": "ResourcesSequence BlogFind the far-reaching articles to upgrade your knowledge in SEOSEO Fields | Jul 02, 2024How To Do Multiregional and Multilingual SEO: A 2024 GuideMultiregional and Multilingual SEO is a must if business wants to expand globally. This strategy involves localized contents and more. Discover them here. Read moreSEO Content | Jan 12, 2024Content Plan Strategy and The Step-by-Step to Make OneA content plan is a comprehensive document that outlines the various elements of your co"
+      }
+    },
+    {
+      "status": "success",
+      "url": "https://sequence.day/products/stat/pricing",
+      "title": "Pricing and Plans | Sequence",
+      "fileName": "products_stat_pricing.html",
+      "filePath": "C:\\Users\\muafa\\Documents\\laidback\\projects\\cmlabs-backend-crawler-freelance-test\\storage\\html\\sequence_day\\products_stat_pricing.html",
+      "renderTimeMs": 2368,
+      "depth": 1,
+      "discoveredLinksCount": 11,
+      "seo": {
+        "description": "Sequence offers various subscription plans you can choose based on your needs. See this tool's pricing details and choose your plan on this page",
+        "robots": "index, follow",
+        "canonical": "https://www.sequence.day/pricing",
+        "hreflangs": [],
+        "openGraph": {
+          "title": "Comprehensive Digital Solutions for Your Business | Sequence",
+          "description": "Get customized, high-quality technology solutions supported by a team of experts. Digital transformation of your business with Sequence.",
+          "url": "",
+          "image": "https://www.sequence.day/assets/sequence-main-banner.png",
+          "type": ""
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Comprehensive Digital Solutions for Your Business | Sequence",
+          "description": "Get customized, high-quality technology solutions supported by a team of experts. Digital transformation of your business with Sequence.",
+          "image": "https://www.sequence.day/assets/sequence-main-banner.png"
+        },
+        "headings": {
+          "h1": [
+            "Well-thought Sequence Pricing"
+          ],
+          "h2": [
+            "See All Features",
+            "Frequently Asked Questions",
+            "Still Have Questions?",
+            "Changes to Sequence Stat Services"
+          ],
+          "h3": [
+            "Solutions",
+            "Products",
+            "Personal",
+            "Agencies",
+            "Enterprise",
+            "Advanced / Custom",
+            "Can Sequence Team get me set up? YES",
+            "Do we have an annual plan? NO, WE ARE WORKING ON IT",
+            "Is my data secure? YES, AND ENCRYPTED",
+            "Can I change my subscription plan? YES",
+            "For Indonesian users, can we pay with a popular e-wallet like GoPay / OVO? YES",
+            "Do we accept payment by PayPal? NO, WE ARE WORKING ON IT",
+            "Does our system support Google Rank Tracking worldwide? YES, EVEN TO THE TIME ZONE LEVEL",
+            "Is Sequence Stats fits with an SEO and Marketing agency? YES, WE OFFER UNLIMITED TEAM AND DOMAIN TO MANAGE",
+            "Can I cancel my plan? YES",
+            "What currency is available on our payment system? IDR & USD",
+            "Do we have a special price for non-profits? YES WE HAVE",
+            "Do we have a special price for students or classrooms? YES WE HAVE",
+            "How Sequence Pricing Calculator works?",
+            "What is digital tax? Is it different in every country?",
+            "What about the currency in Pricing Calculator?"
+          ]
+        },
+        "internalLinks": [
+          {
+            "url": "https://sequence.day/",
+            "text": "",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs",
+            "text": "Blogs",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/products/stat/pricing",
+            "text": "Pricing",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/contact-us",
+            "text": "Contact Us",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/",
+            "text": "Go back to home",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs",
+            "text": "Blogs",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/contact-us",
+            "text": "Contact Us",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/contact-us",
+            "text": "Get Quote Now",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/contact-us",
+            "text": "Contact Us",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/solutions/software-development",
+            "text": "Software Development",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/solutions/technical-consultancies",
+            "text": "Technical Consultancies",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/solutions/technical-consultancies",
+            "text": "SEO Supports",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/solutions/quality-control-and-maintenance",
+            "text": "Quality Control",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/products/stat",
+            "text": "STAT by Sequence",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/about",
+            "text": "About Us",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/contact-us",
+            "text": "Contact Us",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/blogs",
+            "text": "Blog",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/contact-us",
+            "text": "WE ARE HIRING!",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/terms-and-conditions",
+            "text": "Terms and Conditions",
+            "type": "internal"
+          },
+          {
+            "url": "https://sequence.day/privacy-policy",
+            "text": "Privacy Policy",
+            "type": "internal"
+          }
+        ],
+        "externalLinks": [
+          {
+            "url": "https://app.sequence.day/auth/login",
+            "text": "Login",
+            "type": "external"
+          },
+          {
+            "url": "https://app.sequence.day/",
+            "text": "Start Now",
+            "type": "external"
+          },
+          {
+            "url": "https://app.sequence.day/",
+            "text": "Start Now",
+            "type": "external"
+          },
+          {
+            "url": "https://app.sequence.day/auth/login",
+            "text": "Login",
+            "type": "external"
+          },
+          {
+            "url": "https://app.sequence.day/auth?type=personal",
+            "text": "Get Personal",
+            "type": "external"
+          },
+          {
+            "url": "https://app.sequence.day/auth?type=agencies",
+            "text": "Get Agencies",
+            "type": "external"
+          },
+          {
+            "url": "https://app.sequence.day/auth?type=enterprise",
+            "text": "Get Enterprises",
+            "type": "external"
+          },
+          {
+            "url": "mailto:support@sequence.day",
+            "text": "support@sequence.day",
+            "type": "external"
+          },
+          {
+            "url": "https://twitter.com/sequencestats",
+            "text": "",
+            "type": "external"
+          },
+          {
+            "url": "https://id.linkedin.com/company/sequence-stats",
+            "text": "",
+            "type": "external"
+          },
+          {
+            "url": "https://instagram.com/sequence.stats",
+            "text": "",
+            "type": "external"
+          },
+          {
+            "url": "https://tools.sequence.day/keyword-research",
+            "text": "Keyword Research",
+            "type": "external"
+          },
+          {
+            "url": "https://tools.sequence.day/most-popular-indonesia-online-publisher",
+            "text": "Most Popular Indonesia Online Publisher",
+            "type": "external"
+          },
+          {
+            "url": "https://tools.sequence.day/people-and-brand-mention",
+            "text": "Person & Brand Mention on Online Publisher",
+            "type": "external"
+          },
+          {
+            "url": "https://tools.sequence.day/indonesia-online-publisher-sentiments",
+            "text": "Sentiment Analysis",
+            "type": "external"
+          },
+          {
+            "url": "https://tools.sequence.day/site-explorer",
+            "text": "Site Explorer",
+            "type": "external"
+          },
+          {
+            "url": "https://docs.sequence.day/release-logs",
+            "text": "Release Logs",
+            "type": "external"
+          },
+          {
+            "url": "https://h058hu3c6la.typeform.com/to/yiMtu1GX",
+            "text": "Feedback fo Us :)",
+            "type": "external"
+          },
+          {
+            "url": "https://docs.sequence.day/release-logs",
+            "text": "Docs & References",
+            "type": "external"
+          },
+          {
+            "url": "mailto:support@sequence.day",
+            "text": "support@sequence.day",
+            "type": "external"
+          }
+        ],
+        "textSnippet": "Well-thought Sequence PricingChoose the one that suits you the mostUSDIDR (15.200,00)PersonalFor new marketers & small business$7/monthSave 30%Up to 5 teamsRp 1.520,00 per keywordTeam member up to 35 (per team)Domain up to 20 (per team)SEO Kanban FeatureGet PersonalAgenciesFor SMEs, agencies, & SEO Specialists$50/monthSave 40%Up to 15 teamsRp 1.322,40 per keywordTeam member up to 50 (per team)Unlimited domainsSEO Kanban FeatureGet AgenciesEnterprisesFor large companies & enterprises$67/monthSave"
+      }
+    }
+  ]
+}

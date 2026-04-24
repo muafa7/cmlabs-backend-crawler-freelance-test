@@ -1,0 +1,2637 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>web.dev</title>
+  <meta name="description" content="Guidance to build modern web experiences that work on any browser.">
+  
+  <link rel="canonical" href="https://web.dev/">
+  <link rel="alternate" hreflang="en" href="https://web.dev/">
+  <link rel="alternate" hreflang="x-default" href="https://web.dev/">
+  <link rel="alternate" hreflang="ar" href="https://web.dev/?hl=ar">
+  <link rel="alternate" hreflang="bn" href="https://web.dev/?hl=bn">
+  <link rel="alternate" hreflang="zh-Hans" href="https://web.dev/?hl=zh-cn">
+  <link rel="alternate" hreflang="zh-Hant" href="https://web.dev/?hl=zh-tw">
+  <link rel="alternate" hreflang="fa" href="https://web.dev/?hl=fa">
+  <link rel="alternate" hreflang="fr" href="https://web.dev/?hl=fr">
+  <link rel="alternate" hreflang="de" href="https://web.dev/?hl=de">
+  <link rel="alternate" hreflang="he" href="https://web.dev/?hl=he">
+  <link rel="alternate" hreflang="hi" href="https://web.dev/?hl=hi">
+  <link rel="alternate" hreflang="id" href="https://web.dev/?hl=id">
+  <link rel="alternate" hreflang="it" href="https://web.dev/?hl=it">
+  <link rel="alternate" hreflang="ja" href="https://web.dev/?hl=ja">
+  <link rel="alternate" hreflang="ko" href="https://web.dev/?hl=ko">
+  <link rel="alternate" hreflang="pl" href="https://web.dev/?hl=pl">
+  <link rel="alternate" hreflang="pt-BR" href="https://web.dev/?hl=pt-br">
+  <link rel="alternate" hreflang="es-419" href="https://web.dev/?hl=es-419">
+  <link rel="alternate" hreflang="th" href="https://web.dev/?hl=th">
+  <link rel="alternate" hreflang="tr" href="https://web.dev/?hl=tr">
+  <link rel="alternate" hreflang="vi" href="https://web.dev/?hl=vi">
+  <link rel="alternate" hreflang="en-cn" href="https://web.developers.google.cn/">
+  <link rel="alternate" hreflang="x-default" href="https://web.developers.google.cn/">
+  <link rel="alternate" hreflang="ar-cn" href="https://web.developers.google.cn/?hl=ar">
+  <link rel="alternate" hreflang="bn-cn" href="https://web.developers.google.cn/?hl=bn">
+  <link rel="alternate" hreflang="zh-Hans-cn" href="https://web.developers.google.cn/?hl=zh-cn">
+  <link rel="alternate" hreflang="zh-Hant-cn" href="https://web.developers.google.cn/?hl=zh-tw">
+  <link rel="alternate" hreflang="fa-cn" href="https://web.developers.google.cn/?hl=fa">
+  <link rel="alternate" hreflang="fr-cn" href="https://web.developers.google.cn/?hl=fr">
+  <link rel="alternate" hreflang="de-cn" href="https://web.developers.google.cn/?hl=de">
+  <link rel="alternate" hreflang="he-cn" href="https://web.developers.google.cn/?hl=he">
+  <link rel="alternate" hreflang="hi-cn" href="https://web.developers.google.cn/?hl=hi">
+  <link rel="alternate" hreflang="id-cn" href="https://web.developers.google.cn/?hl=id">
+  <link rel="alternate" hreflang="it-cn" href="https://web.developers.google.cn/?hl=it">
+  <link rel="alternate" hreflang="ja-cn" href="https://web.developers.google.cn/?hl=ja">
+  <link rel="alternate" hreflang="ko-cn" href="https://web.developers.google.cn/?hl=ko">
+  <link rel="alternate" hreflang="pl-cn" href="https://web.developers.google.cn/?hl=pl">
+  <link rel="alternate" hreflang="pt-BR-cn" href="https://web.developers.google.cn/?hl=pt-br">
+  <link rel="alternate" hreflang="es-419-cn" href="https://web.developers.google.cn/?hl=es-419">
+  <link rel="alternate" hreflang="th-cn" href="https://web.developers.google.cn/?hl=th">
+  <link rel="alternate" hreflang="tr-cn" href="https://web.developers.google.cn/?hl=tr">
+  <link rel="alternate" hreflang="vi-cn" href="https://web.developers.google.cn/?hl=vi">
+</head>
+<body>
+
+          <div class="devsite-sidebar" fixed="" style="--devsite-js-sidebar-max-height: 547px; --devsite-js-sidebar-offset: 0;">
+            <div class="devsite-sidebar-content">
+                
+                <devsite-toc class="devsite-nav" role="navigation" aria-label="On this page" depth="2" scrollbars="" data-nosnippet="" disabled=""></devsite-toc>
+                <devsite-recommendations-sidebar class="nocontent devsite-nav" data-nosnippet="">
+                </devsite-recommendations-sidebar>
+            </div>
+          </div>
+          <devsite-content>
+            
+              
+
+
+
+
+
+
+
+
+
+
+<article class="devsite-article">
+  
+  
+  
+    <div class="devsite-banner devsite-banner-announcement nocontent" data-nosnippet="">
+      <div class="devsite-banner-message">
+        <div class="devsite-banner-message-text">
+          Chrome is back at Google I/O May 19-20! <a href="https://io.google/2026/?utm_source=web&amp;utm_medium=embedded_marketing&amp;utm_campaign=web-dev&amp;utm_content=">Register now</a>
+        </div>
+      </div>
+    </div>
+  
+  
+  
+
+  <div class="devsite-article-meta nocontent" role="navigation" data-nosnippet="">
+    
+    
+    <ul class="devsite-breadcrumb-list">
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+        
+  <a href="https://web.dev/" class="devsite-breadcrumb-link gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Breadcrumbs" data-value="1" track-type="globalNav" track-name="breadcrumb" track-metadata-position="1" track-metadata-eventdetail="web.dev">
+    
+          web.dev
+        
+  </a>
+  
+      
+    
+  </li>
+  
+</ul>
+    
+  </div>
+  
+  
+    
+  
+
+  <devsite-toc class="devsite-nav" depth="2" devsite-toc-embedded="" disabled="">
+  </devsite-toc>
+  
+    
+  <div class="devsite-article-body clearfix
+  devsite-no-page-title">
+
+  
+    
+  <section class="devsite-landing-row devsite-landing-row-1-up devsite-landing-row-50 devsite-landing-row-hero devsite-landing-row-no-image-background wd-about-hero" background="white" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item" description-position="bottom">
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+    
+  
+  <picture>
+    
+    <img alt="" src="https://web.dev/static/images/home-blue.png" srcset="https://web.dev/static/images/home-blue_36.png 36w,https://web.dev/static/images/home-blue_48.png 48w,https://web.dev/static/images/home-blue_72.png 72w,https://web.dev/static/images/home-blue_96.png 96w,https://web.dev/static/images/home-blue_480.png 480w,https://web.dev/static/images/home-blue_720.png 720w,https://web.dev/static/images/home-blue_856.png 856w,https://web.dev/static/images/home-blue_960.png 960w,https://web.dev/static/images/home-blue_1440.png 1440w,https://web.dev/static/images/home-blue_1920.png 1920w,https://web.dev/static/images/home-blue_2880.png 2880w" sizes="(max-width: 600px) 100vw, (max-width: 840px) 50vw, 708px" fetchpriority="high">
+  </picture>
+  
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="building-a-better-web-together" data-text="Building a better web, together" class="hide-from-toc no-link">
+      
+    
+        Building a better web, together
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            We want to help you build beautiful, accessible, fast, and secure websites that work cross-browser, and for all of your users. This site is our home for content to help you on that journey, written by members of the Chrome team, and external experts who specialize in web development topics such as accessibility, performance, design, and more.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-4-up devsite-landing-row-cards" background="white" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="navigation-api-is-now-baseline-newly-available" data-text="Navigation API is now Baseline Newly available" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/blog/baseline-navigation-api">
+    
+        Navigation API is now Baseline Newly available
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            The Navigation API is now Baseline Newly available, providing a better way to handle navigation in single-page applications.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item" background="grey" description-position="bottom">
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://web.dev/explore/ai">
+    
+  
+  <picture>
+    
+    <img alt="" src="https://web.dev/static/images/ai-feature.png" srcset="https://web.dev/static/images/ai-feature_36.png 36w,https://web.dev/static/images/ai-feature_48.png 48w,https://web.dev/static/images/ai-feature_72.png 72w,https://web.dev/static/images/ai-feature_96.png 96w,https://web.dev/static/images/ai-feature_480.png 480w,https://web.dev/static/images/ai-feature_720.png 720w,https://web.dev/static/images/ai-feature_856.png 856w,https://web.dev/static/images/ai-feature_960.png 960w,https://web.dev/static/images/ai-feature_1440.png 1440w,https://web.dev/static/images/ai-feature_1920.png 1920w,https://web.dev/static/images/ai-feature_2880.png 2880w" sizes="(max-width: 600px) 50vw, (max-width: 840px) 25vw, 342px" loading="lazy">
+  </picture>
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="ai-and-the-web" data-text="AI and the web" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/explore/ai">
+    
+        AI and the web
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Discover resources created to help you understand and build performant, web-first experiences with AI.
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/explore/ai" class="button button-primary
+      ">Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item" background="grey" description-position="bottom">
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://web.dev/explore/how-to-optimize-inp?utm_source=web.dev&amp;utm_medium=cards&amp;utm_campaign=inp-cwv">
+    
+  
+  <picture>
+    
+    <img alt="" src="https://web.dev/static/images/inp-icon-only.jpg" srcset="https://web.dev/static/images/inp-icon-only_36.jpg 36w,https://web.dev/static/images/inp-icon-only_48.jpg 48w,https://web.dev/static/images/inp-icon-only_72.jpg 72w,https://web.dev/static/images/inp-icon-only_96.jpg 96w,https://web.dev/static/images/inp-icon-only_480.jpg 480w,https://web.dev/static/images/inp-icon-only_720.jpg 720w,https://web.dev/static/images/inp-icon-only_856.jpg 856w,https://web.dev/static/images/inp-icon-only_960.jpg 960w,https://web.dev/static/images/inp-icon-only_1440.jpg 1440w,https://web.dev/static/images/inp-icon-only_1920.jpg 1920w,https://web.dev/static/images/inp-icon-only_2880.jpg 2880w" sizes="(max-width: 600px) 50vw, (max-width: 840px) 25vw, 342px" loading="lazy">
+  </picture>
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="optimize-inp" data-text="Optimize INP" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/explore/how-to-optimize-inp?utm_source=web.dev&amp;utm_medium=cards&amp;utm_campaign=inp-cwv">
+    
+        Optimize INP
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Interaction to Next Paint (INP) is now a Core Web Vital metrics. <a href="https://web.dev/explore/how-to-optimize-inp?utm_source=web.dev&amp;utm_medium=cards&amp;utm_campaign=inp-cwv">Start measuring and optimizing</a> your site's INP.
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/explore/how-to-optimize-inp?utm_source=web.dev&amp;utm_medium=cards&amp;utm_campaign=inp-cwv" class="button button-primary
+      ">Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item" background="grey" description-position="bottom">
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://web.dev/identity">
+    
+  
+  <picture>
+    
+    <img alt="" src="https://web.dev/static/identity/image/hero-identity.png" srcset="https://web.dev/static/identity/image/hero-identity_36.png 36w,https://web.dev/static/identity/image/hero-identity_48.png 48w,https://web.dev/static/identity/image/hero-identity_72.png 72w,https://web.dev/static/identity/image/hero-identity_96.png 96w,https://web.dev/static/identity/image/hero-identity_480.png 480w,https://web.dev/static/identity/image/hero-identity_720.png 720w,https://web.dev/static/identity/image/hero-identity_856.png 856w,https://web.dev/static/identity/image/hero-identity_960.png 960w,https://web.dev/static/identity/image/hero-identity_1440.png 1440w,https://web.dev/static/identity/image/hero-identity_1920.png 1920w,https://web.dev/static/identity/image/hero-identity_2880.png 2880w" sizes="(max-width: 600px) 50vw, (max-width: 840px) 25vw, 342px" loading="lazy">
+  </picture>
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="payments-amp-identity" data-text="Payments &amp; Identity" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/identity">
+    
+        Payments &amp; Identity
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Read up on the latest features and best practices when it comes to identity and payment processing.
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/identity" class="button button-primary
+      ">Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-1-up devsite-landing-row-75 devsite-landing-row-padding-small wd-about-hero" background="grey" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+      <header class="devsite-landing-row-header">
+
+        
+
+        
+        <div class="devsite-landing-row-header-text">
+
+          
+    <h2 id="explore-the-web-platform" data-text="Explore the web platform">
+      
+    
+        Explore the web platform
+      
+  
+    </h2>
+  
+
+          
+        </div>
+        
+
+        
+          <div class="devsite-landing-row-header-buttons">
+  
+
+  
+  <a href="https://web.dev/explore" class="button button-primary
+      ">Start exploring</a>
+
+</div>
+        
+      </header>
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            The web platform is a constantly evolving ecosystem of browser features and APIs for developers to make websites that are easy and delightful to use. These pages are pathways for you to dive into each part of the web platform on web.dev—at your pace.
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-3-up devsite-landing-row-cards devsite-landing-row-item-centered" background="grey" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" background="white" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="top">
+
+      
+  
+  <a href="https://web.dev/html">
+    
+  <div class="devsite-landing-row-item-icon-container" background="grey" foreground="light-blue" size="medium">
+  
+    <div class="devsite-landing-row-item-icon material-icons" aria-hidden="true">
+      image
+    </div>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="html" data-text="HTML" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/html">
+    
+        HTML
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            HTML is the document layer of the web, providing structure and semantics for pages.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/html" class="button button-primary
+      ">Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" background="white" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="top">
+
+      
+  
+  <a href="https://web.dev/css">
+    
+  <div class="devsite-landing-row-item-icon-container" background="grey" foreground="light-blue" size="medium">
+  
+    <div class="devsite-landing-row-item-icon material-icons" aria-hidden="true">
+      web
+    </div>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="css" data-text="CSS" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/css">
+    
+        CSS
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            CSS is the presentation layer of the web, and allows you to make your web pages look exactly like you imagine.
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/css" class="button button-primary
+      ">Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" background="white" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description" icon-position="top">
+
+      
+  
+  <a href="https://web.dev/javascript">
+    
+  <div class="devsite-landing-row-item-icon-container" background="grey" foreground="light-blue" size="medium">
+  
+    <div class="devsite-landing-row-item-icon material-icons" aria-hidden="true">
+      timer
+    </div>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="javascript" data-text="JavaScript" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/javascript">
+    
+        JavaScript
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            JavaScript adds rich interactivity to web pages, so you can build websites that help users to perform tasks and accomplish goals.
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/javascript" class="button button-primary
+      ">Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-1-up devsite-landing-row-75 devsite-landing-row-padding-small" background="white" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+      <header class="devsite-landing-row-header">
+
+        
+
+        
+        <div class="devsite-landing-row-header-text">
+
+          
+    <h2 id="learn-the-web-platform" data-text="Learn the web platform">
+      
+    
+        Learn the web platform
+      
+  
+    </h2>
+  
+
+          
+        </div>
+        
+
+        
+          <div class="devsite-landing-row-header-buttons">
+  
+
+  
+  <a href="https://web.dev/learn" class="button button-primary
+      ">Start learning</a>
+
+</div>
+        
+      </header>
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            New to the web platform? We've got you covered! Dive into each layer, with courses curated specifically for beginners to HTML, CSS, and JavaScript.
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-3-up devsite-landing-row-cards devsite-landing-row-item-centered" background="white" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item" background="grey" description-position="bottom">
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://web.dev/learn/html">
+    
+  
+  <picture>
+    
+    <img alt="" src="https://web.dev/static/learn/html/card.png" srcset="https://web.dev/static/learn/html/card_36.png 36w,https://web.dev/static/learn/html/card_48.png 48w,https://web.dev/static/learn/html/card_72.png 72w,https://web.dev/static/learn/html/card_96.png 96w,https://web.dev/static/learn/html/card_480.png 480w,https://web.dev/static/learn/html/card_720.png 720w,https://web.dev/static/learn/html/card_856.png 856w,https://web.dev/static/learn/html/card_960.png 960w,https://web.dev/static/learn/html/card_1440.png 1440w,https://web.dev/static/learn/html/card_1920.png 1920w,https://web.dev/static/learn/html/card_2880.png 2880w" sizes="(max-width: 840px) 50vw, 464px" loading="lazy">
+  </picture>
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+          <div class="devsite-landing-row-item-labels">
+  
+
+  
+  <span class="devsite-label
+             
+             ">Course</span>
+
+</div>
+        
+
+        
+    <h3 id="learn-html" data-text="Learn HTML" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/learn/html">
+    
+        Learn HTML
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            A solid overview of HTML for developers, from novice to expert level HTML.
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/learn/html" class="button
+      ">Start course</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item" background="grey" description-position="bottom">
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://web.dev/learn/css">
+    
+  
+  <picture>
+    
+    <img alt="" src="https://web.dev/static/learn/css/card.png" srcset="https://web.dev/static/learn/css/card_36.png 36w,https://web.dev/static/learn/css/card_48.png 48w,https://web.dev/static/learn/css/card_72.png 72w,https://web.dev/static/learn/css/card_96.png 96w,https://web.dev/static/learn/css/card_480.png 480w,https://web.dev/static/learn/css/card_720.png 720w,https://web.dev/static/learn/css/card_856.png 856w,https://web.dev/static/learn/css/card_960.png 960w,https://web.dev/static/learn/css/card_1440.png 1440w,https://web.dev/static/learn/css/card_1920.png 1920w,https://web.dev/static/learn/css/card_2880.png 2880w" sizes="(max-width: 840px) 50vw, 464px" loading="lazy">
+  </picture>
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+          <div class="devsite-landing-row-item-labels">
+  
+
+  
+  <span class="devsite-label
+             
+             ">Course</span>
+
+</div>
+        
+
+        
+    <h3 id="learn-css" data-text="Learn CSS" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/learn/css">
+    
+        Learn CSS
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            A guide to CSS with modules covering everything from accessibility to z-index.
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/learn/css" class="button
+      ">Start course</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item" background="grey" description-position="bottom">
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://web.dev/learn/javascript">
+    
+  
+  <picture>
+    
+    <img alt="" src="https://web.dev/static/learn/javascript/card.png" srcset="https://web.dev/static/learn/javascript/card_36.png 36w,https://web.dev/static/learn/javascript/card_48.png 48w,https://web.dev/static/learn/javascript/card_72.png 72w,https://web.dev/static/learn/javascript/card_96.png 96w,https://web.dev/static/learn/javascript/card_480.png 480w,https://web.dev/static/learn/javascript/card_720.png 720w,https://web.dev/static/learn/javascript/card_856.png 856w,https://web.dev/static/learn/javascript/card_960.png 960w,https://web.dev/static/learn/javascript/card_1440.png 1440w,https://web.dev/static/learn/javascript/card_1920.png 1920w,https://web.dev/static/learn/javascript/card_2880.png 2880w" sizes="(max-width: 840px) 50vw, 464px" loading="lazy">
+  </picture>
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+          <div class="devsite-landing-row-item-labels">
+  
+
+  
+  <span class="devsite-label
+             
+             ">Course</span>
+
+</div>
+        
+
+        
+    <h3 id="learn-javascript" data-text="Learn JavaScript" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/learn/javascript">
+    
+        Learn JavaScript
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            An in-depth course on the basics of JavaScript.
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/learn/javascript" class="button
+      ">Start course</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-1-up devsite-landing-row-75 devsite-landing-row-no-image-background" background="grey" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item" description-position="bottom">
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+    
+  
+  <picture>
+    
+    <img alt="" src="https://web.dev/static/images/blog-header.png" srcset="https://web.dev/static/images/blog-header_36.png 36w,https://web.dev/static/images/blog-header_48.png 48w,https://web.dev/static/images/blog-header_72.png 72w,https://web.dev/static/images/blog-header_96.png 96w,https://web.dev/static/images/blog-header_480.png 480w,https://web.dev/static/images/blog-header_720.png 720w,https://web.dev/static/images/blog-header_856.png 856w,https://web.dev/static/images/blog-header_960.png 960w,https://web.dev/static/images/blog-header_1440.png 1440w,https://web.dev/static/images/blog-header_1920.png 1920w,https://web.dev/static/images/blog-header_2880.png 2880w" sizes="(max-width: 600px) 100vw, (max-width: 840px) 50vw, 342px" loading="lazy">
+  </picture>
+  
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="keep-up-on-web-development-news" data-text="Keep up on web development news" class="hide-from-toc no-link">
+      
+    
+        Keep up on web development news
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Read our blog to learn the latest news in web development, including new web platform features, updates to Baseline, AI, Core Web Vitals, and more.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://web.dev/blog" class="button
+      ">Read the blog</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-4-up devsite-landing-row-padding-medium wd-top-stroke" background="white" header-position="left">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+      <header class="devsite-landing-row-header">
+
+        
+
+        
+        <div class="devsite-landing-row-header-text">
+
+          
+    <h2 id="baseline" data-text="Baseline">
+      
+    
+        Baseline
+      
+  
+    </h2>
+  
+
+          
+            <div class="devsite-landing-row-description">
+              Get up to speed with the latest updates and news on <a href="/baseline">Baseline</a>.
+
+            </div>
+          
+        </div>
+        
+
+        
+          <div class="devsite-landing-row-header-buttons">
+  
+
+  
+  <a href="https://web.dev/baseline" class="button button-primary
+      ">More on Baseline</a>
+
+</div>
+        
+      </header>
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="march-2026-baseline-monthly-digest" data-text="March 2026 Baseline monthly digest" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/blog/baseline-digest-mar-2026">
+    
+        March 2026 Baseline monthly digest
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Read about various happenings with Baseline during March 2026.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="february-2026-baseline-monthly-digest" data-text="February 2026 Baseline monthly digest" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/blog/baseline-digest-feb-2026">
+    
+        February 2026 Baseline monthly digest
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Read about various happenings with Baseline during February 2026.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="january-2026-baseline-monthly-digest" data-text="January 2026 Baseline monthly digest" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/blog/baseline-digest-jan-2026">
+    
+        January 2026 Baseline monthly digest
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Read about various happenings with Baseline during January 2026.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="december-2025-baseline-monthly-digest" data-text="December 2025 Baseline monthly digest" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/blog/baseline-digest-dec-2025">
+    
+        December 2025 Baseline monthly digest
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Read about various happenings with Baseline during December 2025.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-4-up devsite-landing-row-padding-medium wd-top-stroke" background="grey" header-position="left">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+      <header class="devsite-landing-row-header">
+
+        
+
+        
+        <div class="devsite-landing-row-header-text">
+
+          
+    <h2 id="css-and-ui-design" data-text="CSS and UI design">
+      
+    
+        CSS and UI design
+      
+  
+    </h2>
+  
+
+          
+            <div class="devsite-landing-row-description">
+              Learn the latest tips and techniques to use in your work, right now.
+
+            </div>
+          
+        </div>
+        
+
+        
+          <div class="devsite-landing-row-header-buttons">
+  
+
+  
+  <a href="https://web.dev/css" class="button button-primary
+      ">Explore CSS</a>
+
+</div>
+        
+      </header>
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="adapting-typography-to-user-preference-using-css" data-text="Adapting typography to user preference using CSS" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/articles/adapting-typography-to-user-preferences-with-css">
+    
+        Adapting typography to user preference using CSS
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Adapt a font to your users' preferences, so they're maximally comfortable reading your content.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="new-css-color-spaces-and-functions-in-all-major-engines" data-text="New CSS color spaces and functions in all major engines" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/blog/color-spaces-and-functions">
+    
+        New CSS color spaces and functions in all major engines
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            All major engines now support the new CSS color spaces and functions. Find out how they can bring vibrancy to your designs.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="what-are-source-maps" data-text="What are source maps?" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/articles/source-maps">
+    
+        What are source maps?
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Improve web debugging experience with source maps.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="css-subgrid" data-text="CSS subgrid" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/articles/css-subgrid">
+    
+        CSS subgrid
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Subgrid is now interoperable across all three major engines. Find out how to use it.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-4-up devsite-landing-row-padding-medium wd-top-stroke" background="white" header-position="left">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+      <header class="devsite-landing-row-header">
+
+        
+
+        
+        <div class="devsite-landing-row-header-text">
+
+          
+    <h2 id="core-web-vitals" data-text="Core Web Vitals">
+      
+    
+        Core Web Vitals
+      
+  
+    </h2>
+  
+
+          
+            <div class="devsite-landing-row-description">
+              Build faster websites and apps by understanding Core Web Vitals and other metrics.
+
+            </div>
+          
+        </div>
+        
+
+        
+          <div class="devsite-landing-row-header-buttons">
+  
+
+  
+  <a href="https://web.dev/performance" class="button button-primary
+      ">Explore Core Web Vitals</a>
+
+</div>
+        
+      </header>
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="the-most-effective-ways-to-improve-core-web-vitals" data-text="The most effective ways to improve Core Web Vitals" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/articles/top-cwv">
+    
+        The most effective ways to improve Core Web Vitals
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            A collection of best practices for optimizing websites' Core Web Vitals performance based on the state of the web.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="how-to-optimize-inp" data-text="How to optimize INP" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/explore/how-to-optimize-inp">
+    
+        How to optimize INP
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Learn how to optimize for the Interaction to Next Paint metric.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="common-misconceptions-about-how-to-optimize-lcp" data-text="Common misconceptions about how to optimize LCP" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/blog/common-misconceptions-lcp">
+    
+        Common misconceptions about how to optimize LCP
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Explore common misconceptions about optimizing Largest Contentful Paint by looking beyond image optimization and considering factors like Time to First Byte and resource load delay.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="best-practices-for-measuring-web-vitals-in-the-field" data-text="Best practices for measuring Web Vitals in the field" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/articles/vitals-field-measurement-best-practices">
+    
+        Best practices for measuring Web Vitals in the field
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Guidance for collecting and reporting Web Vitals quickly and reliably.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-4-up devsite-landing-row-padding-medium wd-top-stroke" background="grey" header-position="left">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+      <header class="devsite-landing-row-header">
+
+        
+
+        
+        <div class="devsite-landing-row-header-text">
+
+          
+    <h2 id="progressive-web-apps" data-text="Progressive Web Apps">
+      
+    
+        Progressive Web Apps
+      
+  
+    </h2>
+  
+
+          
+            <div class="devsite-landing-row-description">
+              Create capable web experiences.
+
+            </div>
+          
+        </div>
+        
+
+        
+          <div class="devsite-landing-row-header-buttons">
+  
+
+  
+  <a href="https://web.dev/explore/progressive-web-apps" class="button button-primary
+      ">More on PWA</a>
+
+</div>
+        
+      </header>
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="learn-pwa" data-text="Learn PWA" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/learn/pwa">
+    
+        Learn PWA
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            A course that breaks down every aspect of modern progressive web app development.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="transformstream-is-now-supported-cross-browser" data-text="TransformStream is now supported cross browser." class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/blog/transformstream">
+    
+        TransformStream is now supported cross browser.
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Now that transform streams are supported in Safari, Firefox, and Chrome they are finally ready for prime time.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="new-patterns-for-amazing-apps" data-text="New patterns for amazing apps" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/blog/new-patterns-for-amazing-apps">
+    
+        New patterns for amazing apps
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Dive into a fantastic collection of new patterns for amazing apps, including clipboard patterns, file patterns, and advanced app patterns.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="project-fugu-api-showcase" data-text="Project Fugu API showcase" class="hide-from-toc no-link">
+      
+  <a href="https://developer.chrome.com/fugu-showcase/">
+    
+        Project Fugu API showcase
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            On the Chrome Developers site, explore capabilities APIs.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-4-up devsite-landing-row-padding-medium wd-top-stroke" background="white" header-position="left">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+      <header class="devsite-landing-row-header">
+
+        
+
+        
+        <div class="devsite-landing-row-header-text">
+
+          
+    <h2 id="accessible-for-all" data-text="Accessible for all">
+      
+    
+        Accessible for all
+      
+  
+    </h2>
+  
+
+          
+            <div class="devsite-landing-row-description">
+              Learn how to make your sites more accessible for people with disabilities, whether permanent, temporary, or situational.
+
+            </div>
+          
+        </div>
+        
+
+        
+          <div class="devsite-landing-row-header-buttons">
+  
+
+  
+  <a href="https://web.dev/accessibility" class="button button-primary
+      ">More on accessibility</a>
+
+</div>
+        
+      </header>
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="learn-accessibility" data-text="Learn Accessibility" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/learn/accessibility">
+    
+        Learn Accessibility
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Our new course is a great entry point and reference for accessibility topics.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="testing-web-design-color-contrast" data-text="Testing web design color contrast" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/testing-web-design-color-contrast">
+    
+        Testing web design color contrast
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            An overview of three tools and techniques for testing and verifying accessible color contrast of your design.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="building-the-main-navigation-for-a-website" data-text="Building the main navigation for a website" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/articles/website-navigation">
+    
+        Building the main navigation for a website
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            This tutorial describes how to build an accessible main navigation of a website. You learn about semantic HTML, accessibility, and how using ARIA attributes can sometimes do more harm than good.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="community-highlight-melanie-sumner" data-text="Community highlight: Melanie Sumner" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/blog/community-highlights/melanie">
+    
+        Community highlight: Melanie Sumner
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Read our interview with Melanie, a software engineer who specializes in digital accessibility.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-4-up wd-top-stroke" background="grey" header-position="left">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+      <header class="devsite-landing-row-header">
+
+        
+
+        
+        <div class="devsite-landing-row-header-text">
+
+          
+    <h2 id="payments-and-identity" data-text="Payments and identity">
+      
+    
+        Payments and identity
+      
+  
+    </h2>
+  
+
+          
+            <div class="devsite-landing-row-description">
+              Find the latest techniques and best practices for payments and helping users safely log into your sites and apps.
+
+            </div>
+          
+        </div>
+        
+
+        
+          <div class="devsite-landing-row-header-buttons">
+  
+
+  
+  <a href="https://web.dev/identity" class="button button-primary
+      ">More on identity</a>
+
+</div>
+        
+      </header>
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="create-a-passkey-for-passwordless-logins" data-text="Create a passkey for passwordless logins" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/articles/passkey-registration">
+    
+        Create a passkey for passwordless logins
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Passkeys make user accounts safer, simpler, easier to use.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="sign-in-with-a-passkey" data-text="Sign in with a passkey" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/articles/passkey-form-autofill">
+    
+        Sign in with a passkey
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Create a sign in experience that uses passkeys while still accommodating existing password users.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="web-payments-overview" data-text="Web payments overview" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/articles/web-payments-overview">
+    
+        Web payments overview
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Learn more about Web Payments and how they work.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media" description-position="bottom">
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description">
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="payment-and-address-form-best-practices" data-text="Payment and address form best practices" class="hide-from-toc no-link">
+      
+  <a href="https://web.dev/articles/payment-and-address-form-best-practices">
+    
+        Payment and address form best practices
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Maximize conversions by helping your users complete address and payment forms as quickly and easily as possible.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-1-up devsite-landing-row-header-centered devsite-landing-row-100 devsite-landing-row-padding-medium wd-top-stroke" background="grey" header-position="top">
+    <div class="devsite-landing-row-inner">
+
+    
+      
+      <header class="devsite-landing-row-header">
+
+        
+
+        
+        <div class="devsite-landing-row-header-text">
+
+          
+    <h2 id="developer-newsletter" data-text="Developer Newsletter">
+      
+    
+        Developer Newsletter
+      
+  
+    </h2>
+  
+
+          
+            <div class="devsite-landing-row-description">
+              Get the latest news, techniques and updates straight to your inbox.
+            </div>
+          
+        </div>
+        
+
+        
+      </header>
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item" description-position="bottom">
+
+  
+    <devsite-iframe class="" height="646px" style="height: 646px;"></devsite-iframe>
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  
+
+  
+</div>
+
+  
+
+  <div class="devsite-floating-action-buttons"></div></article>
+
+
+
+<devsite-notification>
+</devsite-notification>
+
+
+  
+<div class="devsite-content-data">
+  
+  
+    
+  
+</div>
+            
+          </devsite-content>
+        
+</body>
+</html>
